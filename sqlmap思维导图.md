@@ -1,17 +1,17 @@
-#SQLMAP×÷ÓÃ
-1. ÅÐ¶Ï¿É×¢ÈëµÄ²ÎÊý
-2. ÅÐ¶Ï¿ÉÒÔÓÃÄÄÖÖSQL×¢Èë¼¼ÊõÀ´×¢Èë
-3. Ê¶±ð³öÄÄÖÖÊý¾Ý¿â
-4.  ¸ù¾ÝÓÃ»§Ñ¡Ôñ£¬¶ÁÈ¡ÄÄÐ©Êý¾Ý
+#SQLMAPä½œç”¨
+1. åˆ¤æ–­å¯æ³¨å…¥çš„å‚æ•°
+2. åˆ¤æ–­å¯ä»¥ç”¨å“ªç§SQLæ³¨å…¥æŠ€æœ¯æ¥æ³¨å…¥
+3. è¯†åˆ«å‡ºå“ªç§æ•°æ®åº“
+4.  æ ¹æ®ç”¨æˆ·é€‰æ‹©ï¼Œè¯»å–å“ªäº›æ•°æ®
 
-#ÎåÖÖ×¢ÈëÄ£Ê½
-1. »ùÓÚ²¼¶ûµÄÃ¤×¢£¬¼´¿ÉÒÔ¸ù¾Ý·µ»ØÒ³ÃæÅÐ¶ÏÌõ¼þÕæ¼ÙµÄ×¢Èë¡£
-2. »ùÓÚÊ±¼äµÄÃ¤×¢£¬¼´²»ÄÜ¸ù¾ÝÒ³Ãæ·µ»ØÄÚÈÝÅÐ¶ÏÈÎºÎÐÅÏ¢£¬ÓÃÌõ¼þÓï¾ä²é¿´Ê±¼äÑÓ³ÙÓï¾äÊÇ·ñÖ´ÐÐ£¨¼´Ò³Ãæ·µ»ØÊ±¼äÊÇ·ñÔö¼Ó£©À´ÅÐ¶Ï¡£
-3. »ùÓÚ±¨´í×¢Èë£¬¼´Ò³Ãæ»á·µ»Ø´íÎóÐÅÏ¢£¬»òÕß°Ñ×¢ÈëµÄÓï¾äµÄ½á¹ûÖ±½Ó·µ»ØÔÚÒ³ÃæÖÐ¡£
-4. ÁªºÏ²éÑ¯×¢Èë£¬¿ÉÒÔÊ¹ÓÃunionµÄÇé¿öÏÂµÄ×¢Èë
-5. ¶Ñ²éÑ¯×¢Èë£¬¿ÉÒÔÍ¬Ê±Ö´ÐÐ¶àÌõÓï¾äµÄÖ´ÐÐÊ±µÄ×¢Èë¡£
+#äº”ç§æ³¨å…¥æ¨¡å¼
+1. åŸºäºŽå¸ƒå°”çš„ç›²æ³¨ï¼Œå³å¯ä»¥æ ¹æ®è¿”å›žé¡µé¢åˆ¤æ–­æ¡ä»¶çœŸå‡çš„æ³¨å…¥ã€‚
+2. åŸºäºŽæ—¶é—´çš„ç›²æ³¨ï¼Œå³ä¸èƒ½æ ¹æ®é¡µé¢è¿”å›žå†…å®¹åˆ¤æ–­ä»»ä½•ä¿¡æ¯ï¼Œç”¨æ¡ä»¶è¯­å¥æŸ¥çœ‹æ—¶é—´å»¶è¿Ÿè¯­å¥æ˜¯å¦æ‰§è¡Œï¼ˆå³é¡µé¢è¿”å›žæ—¶é—´æ˜¯å¦å¢žåŠ ï¼‰æ¥åˆ¤æ–­ã€‚
+3. åŸºäºŽæŠ¥é”™æ³¨å…¥ï¼Œå³é¡µé¢ä¼šè¿”å›žé”™è¯¯ä¿¡æ¯ï¼Œæˆ–è€…æŠŠæ³¨å…¥çš„è¯­å¥çš„ç»“æžœç›´æŽ¥è¿”å›žåœ¨é¡µé¢ä¸­ã€‚
+4. è”åˆæŸ¥è¯¢æ³¨å…¥ï¼Œå¯ä»¥ä½¿ç”¨unionçš„æƒ…å†µä¸‹çš„æ³¨å…¥
+5. å †æŸ¥è¯¢æ³¨å…¥ï¼Œå¯ä»¥åŒæ—¶æ‰§è¡Œå¤šæ¡è¯­å¥çš„æ‰§è¡Œæ—¶çš„æ³¨å…¥ã€‚
 
-#Ö§³ÖÄÄÐ©Êý¾Ý¿â×¢Èë£¿
+#æ”¯æŒå“ªäº›æ•°æ®åº“æ³¨å…¥ï¼Ÿ
 - MySQL
 - Oracle
 - PostgreSQL
@@ -23,360 +23,360 @@
 - Sybase
 - SAP MaxDB
 
-#±Ø±¸²ÎÊý
-##¹Û²ìÊý¾Ý
-**-v²ÎÊý£¬¹²ÓÐ7¸öµÈ¼¶£¬Ä¬ÈÏÎª1**
-- -v 0  Ö»ÏÔÊ¾python´íÎóÒÔ¼°ÑÏÖØµÄÐÅÏ¢
-- -v 1  Í¬Ê±ÏÔÊ¾»ù±¾ÐÅÏ¢ºÍ¾¯¸æÐÅÏ¢¡££¨Ä¬ÈÏ£©
-- -v 2  Í¬Ê±ÏÔÊ¾debugÐÅÏ¢¡£
-- -v 3  Í¬Ê±ÏÔÊ¾×¢ÈëµÄpayload¡£
-- -v 4  Í¬Ê±ÏÔÊ¾HTTPÇëÇó¡£
-- -v 5  Í¬Ê±ÏÔÊ¾HTTPÏàÓ¦Í·¡£
-- -v 6 Í¬Ê±ÏÔÊ¾HTTPÏàÓ¦Ò³Ãæ¡£
+#å¿…å¤‡å‚æ•°
+##è§‚å¯Ÿæ•°æ®
+**-vå‚æ•°ï¼Œå…±æœ‰7ä¸ªç­‰çº§ï¼Œé»˜è®¤ä¸º1**
+- -v 0  åªæ˜¾ç¤ºpythoné”™è¯¯ä»¥åŠä¸¥é‡çš„ä¿¡æ¯
+- -v 1  åŒæ—¶æ˜¾ç¤ºåŸºæœ¬ä¿¡æ¯å’Œè­¦å‘Šä¿¡æ¯ã€‚ï¼ˆé»˜è®¤ï¼‰
+- -v 2  åŒæ—¶æ˜¾ç¤ºdebugä¿¡æ¯ã€‚
+- -v 3  åŒæ—¶æ˜¾ç¤ºæ³¨å…¥çš„payloadã€‚
+- -v 4  åŒæ—¶æ˜¾ç¤ºHTTPè¯·æ±‚ã€‚
+- -v 5  åŒæ—¶æ˜¾ç¤ºHTTPç›¸åº”å¤´ã€‚
+- -v 6 åŒæ—¶æ˜¾ç¤ºHTTPç›¸åº”é¡µé¢ã€‚
 
-Èç¹ûÏë¿´µ½SQLmap·¢ËÍµÄ²âÊÔpayload×îºÃµÄµÈ¼¶¾ÍÊÇ3
-##»ñÈ¡Ä¿±ê·½Ê½
-1. Ö±½ÓÁ¬½Óµ½Êý¾Ý¿â
-²ÎÊý£º-d
-¶Ôµ¥¸öÊý¾Ý¿âÊµÀýÔËÐÐSQLmap
+å¦‚æžœæƒ³çœ‹åˆ°SQLmapå‘é€çš„æµ‹è¯•payloadæœ€å¥½çš„ç­‰çº§å°±æ˜¯3
+##èŽ·å–ç›®æ ‡æ–¹å¼
+1. ç›´æŽ¥è¿žæŽ¥åˆ°æ•°æ®åº“
+å‚æ•°ï¼š-d
+å¯¹å•ä¸ªæ•°æ®åº“å®žä¾‹è¿è¡ŒSQLmap
 ```
 python sqlmap.py -d "mysql://admin:admin@127.0.0.1:3306/db"
 ```
-2. Ä¿±êURL
-²ÎÊý£º-u»òÕß--url
+2. ç›®æ ‡URL
+å‚æ•°ï¼š-uæˆ–è€…--url
 ```
 python sqlmap.py -u "http(s)://targeturl:[port]/[...]" 
 ```
-3. ´ÓBurp»òÕßWebScarab´úÀíÖÐ»ñÈ¡ÈÕÖ¾
-²ÎÊý£º-l
-´ÓÈÕÖ¾Ö±½Óµ¼³öÀ´½»¸øsqlmap¼ì²â
-4. ´ÓÎÄ±¾ÖÐ»ñÈ¡¶à¸öÄ¿±êÉ¨Ãè
-²ÎÊý£º-m
-url±£´æÔÚÎÄ±¾ÖÐ£¬sqlmapÒ»¸öÒ»¸ö¼ì²â
-5. ´ÓÎÄ¼þÖÐ¼ÓÔØHTTPÇëÇó
-²ÎÊý£º-r
-¿ÉÒÔÌø¹ýÉèÖÃÒ»Ð©ÆäËû²ÎÊý±ÈÈçcookie£¬POSTÊý¾Ý
-*µ±ÇëÇóÊÇHTTPSµÄÊ±ºòÐèÒªÅäºÏÕâ¸ö--force-ssl²ÎÊýÊ¹ÓÃ£¬»òÕß¿ÉÒÔÔÚHostÍ·ºóÃæ¼ÓÉÏ:443*
-6. ´¦ÀíGoogleµÄËÑË÷½á¹û
-²ÎÊý£º-g
-sqlmap¿ÉÒÔ²âÊÔ×¢ÈëGoogleµÄËÑË÷½á¹ûÖÐµÄGET²ÎÊý
+3. ä»ŽBurpæˆ–è€…WebScarabä»£ç†ä¸­èŽ·å–æ—¥å¿—
+å‚æ•°ï¼š-l
+ä»Žæ—¥å¿—ç›´æŽ¥å¯¼å‡ºæ¥äº¤ç»™sqlmapæ£€æµ‹
+4. ä»Žæ–‡æœ¬ä¸­èŽ·å–å¤šä¸ªç›®æ ‡æ‰«æ
+å‚æ•°ï¼š-m
+urlä¿å­˜åœ¨æ–‡æœ¬ä¸­ï¼Œsqlmapä¸€ä¸ªä¸€ä¸ªæ£€æµ‹
+5. ä»Žæ–‡ä»¶ä¸­åŠ è½½HTTPè¯·æ±‚
+å‚æ•°ï¼š-r
+å¯ä»¥è·³è¿‡è®¾ç½®ä¸€äº›å…¶ä»–å‚æ•°æ¯”å¦‚cookieï¼ŒPOSTæ•°æ®
+*å½“è¯·æ±‚æ˜¯HTTPSçš„æ—¶å€™éœ€è¦é…åˆè¿™ä¸ª--force-sslå‚æ•°ä½¿ç”¨ï¼Œæˆ–è€…å¯ä»¥åœ¨Hostå¤´åŽé¢åŠ ä¸Š:443*
+6. å¤„ç†Googleçš„æœç´¢ç»“æžœ
+å‚æ•°ï¼š-g
+sqlmapå¯ä»¥æµ‹è¯•æ³¨å…¥Googleçš„æœç´¢ç»“æžœä¸­çš„GETå‚æ•°
 ```
 python sqlmap.py -g "inurl:\".php?id=1\""
 ```
-7. ÅäÖÃ¼ÓÔØÑ¡ÏîINIÎÄ¼þ
-²ÎÊý£º-c
-¼ÓÔØsqlmap.confÎÄ¼þÀïÃæµÄÏà¹ØÅäÖÃ
+7. é…ç½®åŠ è½½é€‰é¡¹INIæ–‡ä»¶
+å‚æ•°ï¼š-c
+åŠ è½½sqlmap.confæ–‡ä»¶é‡Œé¢çš„ç›¸å…³é…ç½®
 
-##ÇëÇó·½Ê½
-1. HTTPÊý¾Ý 
-²ÎÊý£º--data
-°ÑÊý¾ÝÒÔPOST·½Ê½Ìá½»,sqlmap»áÏñ¼ì²âGET²ÎÊýÒ»Ñù¼ì²âPOSTµÄ²ÎÊý
+##è¯·æ±‚æ–¹å¼
+1. HTTPæ•°æ® 
+å‚æ•°ï¼š--data
+æŠŠæ•°æ®ä»¥POSTæ–¹å¼æäº¤,sqlmapä¼šåƒæ£€æµ‹GETå‚æ•°ä¸€æ ·æ£€æµ‹POSTçš„å‚æ•°
 ```
 python sqlmap.py -u "http://www.target.com/vuln.php" --data="id=1"
 ```
-2. ²ÎÊý²ð·Ö×Ö·û
-²ÎÊý£º-param-del
-µ±GET»òPOSTµÄÊý¾ÝÐèÒªÓÃÆäËû×Ö·û·Ö¸î²âÊÔ²ÎÊýµÄÊ±ºòÐèÒªÓÃµ½´Ë²ÎÊý
+2. å‚æ•°æ‹†åˆ†å­—ç¬¦
+å‚æ•°ï¼š-param-del
+å½“GETæˆ–POSTçš„æ•°æ®éœ€è¦ç”¨å…¶ä»–å­—ç¬¦åˆ†å‰²æµ‹è¯•å‚æ•°çš„æ—¶å€™éœ€è¦ç”¨åˆ°æ­¤å‚æ•°
 ```
 python sqlmap.py -u "http://www.target.com/vuln.php" --data="query=foobar;id=1" --param-del=";" 
 ```
-3. HTTP cookieÍ·
-²ÎÊý£º--cookie, --load-cookies, --drop-set-cookie
-webÓ¦ÓÃÐèÒªµÇÂ¼µÄÊ±ºò
-ÔÚÕâÐ©Í·²ÎÊýÖÐ²âÊÔSQL×¢ÈëÊ±
-*Èç¹û²»Ïë½ÓÊÜSet-Cookie¿ÉÒÔÊ¹ÓÃ--drop-set-cookie²ÎÊýÀ´¾Ü½Ó*
-4. HTTP User-AgentÍ·
-²ÎÊý£º--user-agent, --random-agent
-¿ÉÒÔÊ¹ÓÃ--user-agent²ÎÊýÀ´ÐÞ¸Ä£¬Í¬Ê±Ò²¿ÉÒÔÊ¹ÓÃ--random-agent²ÎÊýËæ»ú´Ó./txt/user-agents.txtÖÐ»ñÈ¡
-*µ±--level²ÎÊýÉè¶¨Îª3»òÕß3ÒÔÉÏÊ±£¬»á³¢ÊÔ¶ÔUser-Agent½øÐÐ×¢Èë*
-5. HTTP hostÍ·
-²ÎÊý£º--host
-¿ÉÒÔÊÖ¶¯ÉèÖÃHTTP hostµÄÖµ
-6. HTTP RefererÍ·£º
-²ÎÊý£º--referer
-sqlmap¿ÉÒÔÔÚÇëÇóÖÐÎ±ÔìHTTPÖÐµÄreferer£¬µ±--level²ÎÊýÉè¶¨Îª3»òÕß3ÒÔÉÏµÄÊ±ºò»á³¢ÊÔ¶Ôreferer×¢Èë
-7. ¶îÍâµÄHTTPÍ·
-²ÎÊý£º--headers
-¿ÉÒÔÍ¨¹ý--headers²ÎÊýÀ´Ôö¼Ó¶îÍâµÄhttpÍ·
-8. HTTPÈÏÖ¤±£»¤
-²ÎÊý£º--auth-type, --auth-cred
-µÇÂ¼HTTPµÄÈÏÖ¤±£»¤Ö§³ÖÈýÖÖ·½Ê½£º
+3. HTTP cookieå¤´
+å‚æ•°ï¼š--cookie, --load-cookies, --drop-set-cookie
+webåº”ç”¨éœ€è¦ç™»å½•çš„æ—¶å€™
+åœ¨è¿™äº›å¤´å‚æ•°ä¸­æµ‹è¯•SQLæ³¨å…¥æ—¶
+*å¦‚æžœä¸æƒ³æŽ¥å—Set-Cookieå¯ä»¥ä½¿ç”¨--drop-set-cookieå‚æ•°æ¥æ‹’æŽ¥*
+4. HTTP User-Agentå¤´
+å‚æ•°ï¼š--user-agent, --random-agent
+å¯ä»¥ä½¿ç”¨--user-agentå‚æ•°æ¥ä¿®æ”¹ï¼ŒåŒæ—¶ä¹Ÿå¯ä»¥ä½¿ç”¨--random-agentå‚æ•°éšæœºä»Ž./txt/user-agents.txtä¸­èŽ·å–
+*å½“--levelå‚æ•°è®¾å®šä¸º3æˆ–è€…3ä»¥ä¸Šæ—¶ï¼Œä¼šå°è¯•å¯¹User-Agentè¿›è¡Œæ³¨å…¥*
+5. HTTP hostå¤´
+å‚æ•°ï¼š--host
+å¯ä»¥æ‰‹åŠ¨è®¾ç½®HTTP hostçš„å€¼
+6. HTTP Refererå¤´ï¼š
+å‚æ•°ï¼š--referer
+sqlmapå¯ä»¥åœ¨è¯·æ±‚ä¸­ä¼ªé€ HTTPä¸­çš„refererï¼Œå½“--levelå‚æ•°è®¾å®šä¸º3æˆ–è€…3ä»¥ä¸Šçš„æ—¶å€™ä¼šå°è¯•å¯¹refereræ³¨å…¥
+7. é¢å¤–çš„HTTPå¤´
+å‚æ•°ï¼š--headers
+å¯ä»¥é€šè¿‡--headerså‚æ•°æ¥å¢žåŠ é¢å¤–çš„httpå¤´
+8. HTTPè®¤è¯ä¿æŠ¤
+å‚æ•°ï¼š--auth-type, --auth-cred
+ç™»å½•HTTPçš„è®¤è¯ä¿æŠ¤æ”¯æŒä¸‰ç§æ–¹å¼ï¼š
   - Basic
   - Digest
   - NTLM
 ```
 python sqlmap.py -u "http://192.168.1.1/sqlmap/mysql/basic/get_int.php?id=1" --auth-type Basic --auth-cred "testuser:testpass"
 ```
-9. HTTPÐ­ÒéµÄÖ¤ÊéÈÏÖ¤
-²ÎÊý£º--auth-type, --auth-cert
-µ±web·þÎñÆ÷ÐèÒª¶Ë¿Í»§Ö¤Êé½øÐÐÉí·ÝÑéÖ¤Ê±£¬ÐèÒªÌá¹©Á½¸öÎÄ¼þ£ºkey_file, cert_file
-key_fileÊÇ¸ñÊ½ÎªPEMÎÄ¼þ£¬°üº¬×ÅÄãµÄË½Ô¿£¬cert_fileÊÇ¸ñÊ½ÎªPEMµÄÁ¬½ÓÎÄ¼þ
-10. HTTPÐ­ÒéË½ÓÐÃÜÔ¿Éí·ÝÑéÖ¤
-²ÎÊý£º--auth-private
-Õâ¸öÑ¡ÏîÓ¦¸ÃÔÚÇé¿öÏÂ£¬web·þÎñÆ÷ÐèÒªÊ¹ÓÃÊÊµ±µÄ¿Í»§¶ËË½Ô¿½øÐÐÉí·ÝÑéÖ¤£¬Ìá¹©µÄ¼ÛÖµÓ¦¸ÃÊÇPEM¸ñÊ½key_file°üº¬ÄãµÄË½Ô¿
-11. HTTP(S)´úÀí
-²ÎÊý£º--proxy, --proxy-cred, --ignore-proxy
-Ê¹ÓÃ--proxy´úÀí¸ñÊ½Îª£ºhttp://url:port/
-µ±HTTP(S)´úÀíÐèÒªÈÏÖ¤ÊÇ¿ÉÒÔÊ¹ÓÃ--proxy-cre²ÎÊý£ºusername:password
---ignore-proxy¾Ü¾øÊ¹ÓÃ±¾µØ¾ÖÓòÍøµÄHTTP(S)´úÀí
-12. TorÍøÂçÄäÃû
-²ÎÊý£º--tor, --tor-port, --tor-typeºÍ--check-tor
-Èç¹ûÄãÐèÒª±£³ÖÄäÃû£¬¶ø²»ÊÇ¾­¹ýÒ»¸öÔ¤¶¨ÒåµÄHTTP(S)´úÀí·þÎñÆ÷£¬Äã¿ÉÒÔÅäÖÃÒ»¸öTor¿Í»§ÔÚÒ»ÆðPrivoxy£¨»òÀàËÆµÄ£©ÔÚÄãµÄ»úÆ÷ÉÏ½âÊÍTor°²×°Ö¸ÄÏ£¬È»ºóÄã¿ÉÒÔÊ¹ÓÃÒ»¸ö¿ª¹Ø--torºÍsqlmap½«³¢ÊÔ×Ô¶¯ÉèÖÃTor´úÀíÁ¬½ÓÉèÖÃ
-13. HTTPÇëÇóÑÓ³Ù
-²ÎÊý£º--delay
-Éè¶¨Á½¸öHTTP(S)ÇëÇó¼äµÄÑÓ³Ù£¬Éè¶¨Îª0.5µÄÊ±ºòÊÇ°ëÃë£¬Ä¬ÈÏÊÇÃ»ÓÐÑÓ³ÙµÄ
-14. Éè¶¨³¬Ê±Ê±¼ä
-²ÎÊý£º--timeout
-¿ÉÒÔÉè¶¨Ò»¸öHTTP(S)ÇëÇó³¬¹ý15¶à¾ÃÅÐ¶¨Îª³¬Ê±£¬Ä¬ÈÏÊÇ30Ãë
-15. Éè¶¨ÖØÊÔ³¬Ê±
-²ÎÊý£º--retries
-µ±HTTP(S)³¬Ê±Ê±£¬¿ÉÒÔÉè¶¨ÖØÐÂ³¢ÊÔÁ¬½Ó´ÎÊý£¬Ä¬ÈÏÊÇ3´Î
-16. Éè¶¨Ëæ»ú¸Ä±äµÄ²ÎÊýÖµ
-²ÎÊý£º--randomize
-¿ÉÒÔÉè¶¨Ä³Ò»¸ö²ÎÊýÖµÔÚÃ¿Ò»´ÎÇëÇóÖÐËæ»úµÄ±ä»¯£¬³¤¶ÈºÍÀàÐÍ»áÓëÌá¹©µÄ³õÊ¼ÖµÒ»Ñù
-17. ÀûÓÃÕýÔò¹ýÂËÄ¿±êÍøÖ·
-²ÎÊý£º--scope
+9. HTTPåè®®çš„è¯ä¹¦è®¤è¯
+å‚æ•°ï¼š--auth-type, --auth-cert
+å½“webæœåŠ¡å™¨éœ€è¦ç«¯å®¢æˆ·è¯ä¹¦è¿›è¡Œèº«ä»½éªŒè¯æ—¶ï¼Œéœ€è¦æä¾›ä¸¤ä¸ªæ–‡ä»¶ï¼škey_file, cert_file
+key_fileæ˜¯æ ¼å¼ä¸ºPEMæ–‡ä»¶ï¼ŒåŒ…å«ç€ä½ çš„ç§é’¥ï¼Œcert_fileæ˜¯æ ¼å¼ä¸ºPEMçš„è¿žæŽ¥æ–‡ä»¶
+10. HTTPåè®®ç§æœ‰å¯†é’¥èº«ä»½éªŒè¯
+å‚æ•°ï¼š--auth-private
+è¿™ä¸ªé€‰é¡¹åº”è¯¥åœ¨æƒ…å†µä¸‹ï¼ŒwebæœåŠ¡å™¨éœ€è¦ä½¿ç”¨é€‚å½“çš„å®¢æˆ·ç«¯ç§é’¥è¿›è¡Œèº«ä»½éªŒè¯ï¼Œæä¾›çš„ä»·å€¼åº”è¯¥æ˜¯PEMæ ¼å¼key_fileåŒ…å«ä½ çš„ç§é’¥
+11. HTTP(S)ä»£ç†
+å‚æ•°ï¼š--proxy, --proxy-cred, --ignore-proxy
+ä½¿ç”¨--proxyä»£ç†æ ¼å¼ä¸ºï¼šhttp://url:port/
+å½“HTTP(S)ä»£ç†éœ€è¦è®¤è¯æ˜¯å¯ä»¥ä½¿ç”¨--proxy-creå‚æ•°ï¼šusername:password
+--ignore-proxyæ‹’ç»ä½¿ç”¨æœ¬åœ°å±€åŸŸç½‘çš„HTTP(S)ä»£ç†
+12. Torç½‘ç»œåŒ¿å
+å‚æ•°ï¼š--tor, --tor-port, --tor-typeå’Œ--check-tor
+å¦‚æžœä½ éœ€è¦ä¿æŒåŒ¿åï¼Œè€Œä¸æ˜¯ç»è¿‡ä¸€ä¸ªé¢„å®šä¹‰çš„HTTP(S)ä»£ç†æœåŠ¡å™¨ï¼Œä½ å¯ä»¥é…ç½®ä¸€ä¸ªTorå®¢æˆ·åœ¨ä¸€èµ·Privoxyï¼ˆæˆ–ç±»ä¼¼çš„ï¼‰åœ¨ä½ çš„æœºå™¨ä¸Šè§£é‡ŠTorå®‰è£…æŒ‡å—ï¼Œç„¶åŽä½ å¯ä»¥ä½¿ç”¨ä¸€ä¸ªå¼€å…³--torå’Œsqlmapå°†å°è¯•è‡ªåŠ¨è®¾ç½®Torä»£ç†è¿žæŽ¥è®¾ç½®
+13. HTTPè¯·æ±‚å»¶è¿Ÿ
+å‚æ•°ï¼š--delay
+è®¾å®šä¸¤ä¸ªHTTP(S)è¯·æ±‚é—´çš„å»¶è¿Ÿï¼Œè®¾å®šä¸º0.5çš„æ—¶å€™æ˜¯åŠç§’ï¼Œé»˜è®¤æ˜¯æ²¡æœ‰å»¶è¿Ÿçš„
+14. è®¾å®šè¶…æ—¶æ—¶é—´
+å‚æ•°ï¼š--timeout
+å¯ä»¥è®¾å®šä¸€ä¸ªHTTP(S)è¯·æ±‚è¶…è¿‡15å¤šä¹…åˆ¤å®šä¸ºè¶…æ—¶ï¼Œé»˜è®¤æ˜¯30ç§’
+15. è®¾å®šé‡è¯•è¶…æ—¶
+å‚æ•°ï¼š--retries
+å½“HTTP(S)è¶…æ—¶æ—¶ï¼Œå¯ä»¥è®¾å®šé‡æ–°å°è¯•è¿žæŽ¥æ¬¡æ•°ï¼Œé»˜è®¤æ˜¯3æ¬¡
+16. è®¾å®šéšæœºæ”¹å˜çš„å‚æ•°å€¼
+å‚æ•°ï¼š--randomize
+å¯ä»¥è®¾å®šæŸä¸€ä¸ªå‚æ•°å€¼åœ¨æ¯ä¸€æ¬¡è¯·æ±‚ä¸­éšæœºçš„å˜åŒ–ï¼Œé•¿åº¦å’Œç±»åž‹ä¼šä¸Žæä¾›çš„åˆå§‹å€¼ä¸€æ ·
+17. åˆ©ç”¨æ­£åˆ™è¿‡æ»¤ç›®æ ‡ç½‘å€
+å‚æ•°ï¼š--scope
 ```
 python sqlmap.py -l burp.log --scope="(www)?\.target\.(com|net|org)"
 ```
-18. ±ÜÃâ¹ý¶àµÄ´íÎóÇëÇó±»ÆÁ±Î
-²ÎÊý£º--safe-url, --safe-freq
-ÓÐµÄwebÓ¦ÓÃ³ÌÐò»áÔÚÄã¶à´Î·ÃÎÊ´íÎóµÄÇëÇóÊ±ÆÁ±ÎµôÄãÒÔºóµÄËùÓÐÇëÇó£¬ÕâÑùÔÚsqlmap½øÐÐÌ½²â»òÕß×¢ÈëµÄÊ±ºò¿ÉÄÜÔì³É´íÎóÇëÇó¶ø´¥·¢Õâ¸ö²ßÂÔ£¬µ¼ÖÂÒÔºóÎÞ·¨½øÐÐ¡£
-  - --safe-url£ºÌá¹©Ò»¸ö°²È«²»´íÎóµÄÁ¬½Ó£¬Ã¿¸ôÒ»¶ÎÊ±¼ä¶¼»á·ÃÎÊÒ»ÏÂ
-  - --safe-freq£ºÌá¹©Ò»¸ö°²È«²»´íÎóµÄÁ¬½Ó£¬Ã¿´Î²âÊÔÇëÇóÖ®ºó¶¼»áÔÙ·ÃÎÊÒ»±é°²È«Á¬½Ó
-19. Ê¹ÓÃSSL/HTTPS
-²ÎÊý£º--force-ssl
-Èç¹ûÓÃ»§ÏëÒªÇ¿ÆÈÊ¹ÓÃSSL/HTTPSÇëÇóÄ¿±ê£¬¿ÉÒÔÊ¹ÓÃ´Ë²ÎÊý
-20. ¹ØµôURL²ÎÊýÖµ±àÂë
-²ÎÊý£º--skip-urlencode
-¸ù¾Ý²ÎÊýÎ»ÖÃ£¬ËûµÄÖµÄ¬ÈÏ½«»á±»URL±àÂë£¬µ«ÊÇÓÐÐ©Ê±ºòºó¶ËµÄweb·þÎñÆ÷²»×ñÊØRFC±ê×¼Ö»½ÓÊÜ²»¾­¹ýURL±àÂëµÄÖµ£¬ÕâÊ±ºò¾ÍÐèÒªÓÃ--skip-urlencode²ÎÊý
-21. Ã¿´ÎÇëÇóÊ±ºòÖ´ÐÐ×Ô¶¨ÒåµÄpython´úÂë
-²ÎÊý£º--eval
-ÓÐÐ©Ê±ºòÐèÒª¸ù¾ÝÄ³¸ö²ÎÊýµÄ±ä»¯£¬¶øÐÞ¸ÄÁíÒ»¸ö²ÎÊý£¬²ÅÄÜÐÎ³ÉÕý³£µÄÇëÇó£¬ÕâÊ±¿ÉÒÔÓÃ--eval²ÎÊýÔÚÃ¿´ÎÇëÇóÊ±¸ù¾ÝËùÐ´python´úÂë×öÍêÐÞ¸ÄºóÇëÇó
+18. é¿å…è¿‡å¤šçš„é”™è¯¯è¯·æ±‚è¢«å±è”½
+å‚æ•°ï¼š--safe-url, --safe-freq
+æœ‰çš„webåº”ç”¨ç¨‹åºä¼šåœ¨ä½ å¤šæ¬¡è®¿é—®é”™è¯¯çš„è¯·æ±‚æ—¶å±è”½æŽ‰ä½ ä»¥åŽçš„æ‰€æœ‰è¯·æ±‚ï¼Œè¿™æ ·åœ¨sqlmapè¿›è¡ŒæŽ¢æµ‹æˆ–è€…æ³¨å…¥çš„æ—¶å€™å¯èƒ½é€ æˆé”™è¯¯è¯·æ±‚è€Œè§¦å‘è¿™ä¸ªç­–ç•¥ï¼Œå¯¼è‡´ä»¥åŽæ— æ³•è¿›è¡Œã€‚
+  - --safe-urlï¼šæä¾›ä¸€ä¸ªå®‰å…¨ä¸é”™è¯¯çš„è¿žæŽ¥ï¼Œæ¯éš”ä¸€æ®µæ—¶é—´éƒ½ä¼šè®¿é—®ä¸€ä¸‹
+  - --safe-freqï¼šæä¾›ä¸€ä¸ªå®‰å…¨ä¸é”™è¯¯çš„è¿žæŽ¥ï¼Œæ¯æ¬¡æµ‹è¯•è¯·æ±‚ä¹‹åŽéƒ½ä¼šå†è®¿é—®ä¸€éå®‰å…¨è¿žæŽ¥
+19. ä½¿ç”¨SSL/HTTPS
+å‚æ•°ï¼š--force-ssl
+å¦‚æžœç”¨æˆ·æƒ³è¦å¼ºè¿«ä½¿ç”¨SSL/HTTPSè¯·æ±‚ç›®æ ‡ï¼Œå¯ä»¥ä½¿ç”¨æ­¤å‚æ•°
+20. å…³æŽ‰URLå‚æ•°å€¼ç¼–ç 
+å‚æ•°ï¼š--skip-urlencode
+æ ¹æ®å‚æ•°ä½ç½®ï¼Œä»–çš„å€¼é»˜è®¤å°†ä¼šè¢«URLç¼–ç ï¼Œä½†æ˜¯æœ‰äº›æ—¶å€™åŽç«¯çš„webæœåŠ¡å™¨ä¸éµå®ˆRFCæ ‡å‡†åªæŽ¥å—ä¸ç»è¿‡URLç¼–ç çš„å€¼ï¼Œè¿™æ—¶å€™å°±éœ€è¦ç”¨--skip-urlencodeå‚æ•°
+21. æ¯æ¬¡è¯·æ±‚æ—¶å€™æ‰§è¡Œè‡ªå®šä¹‰çš„pythonä»£ç 
+å‚æ•°ï¼š--eval
+æœ‰äº›æ—¶å€™éœ€è¦æ ¹æ®æŸä¸ªå‚æ•°çš„å˜åŒ–ï¼Œè€Œä¿®æ”¹å¦ä¸€ä¸ªå‚æ•°ï¼Œæ‰èƒ½å½¢æˆæ­£å¸¸çš„è¯·æ±‚ï¼Œè¿™æ—¶å¯ä»¥ç”¨--evalå‚æ•°åœ¨æ¯æ¬¡è¯·æ±‚æ—¶æ ¹æ®æ‰€å†™pythonä»£ç åšå®Œä¿®æ”¹åŽè¯·æ±‚
 ```
 python sqlmap.py -u "http://www.target.com/vuln.php?id=1&hash=c4ca4238a0b923820dcc509a6f75849b" --eval="import hashlib;hash=hashlib.md5(id).hexdigest()"
 ```
 
-##ÓÅ»¯
-1. ÊÕ¼¯ÓÅ»¯
-²ÎÊý£º-o
-Õâ¸ö²ÎÊýÊÇÒ»¸ö±ðÃû£¬ÒþÊ½µØÉèÖÃÒÔÏÂÑ¡ÏîºÍ½»»»»ú
+##ä¼˜åŒ–
+1. æ”¶é›†ä¼˜åŒ–
+å‚æ•°ï¼š-o
+è¿™ä¸ªå‚æ•°æ˜¯ä¸€ä¸ªåˆ«åï¼Œéšå¼åœ°è®¾ç½®ä»¥ä¸‹é€‰é¡¹å’Œäº¤æ¢æœº
   - --keep-alive
   - --null-connection
   - --threads=3
-2. Êä³öÔ¤²â
-²ÎÊý£º--predict-output
-ÕâÀïÊÇÓÃÓÚÍÆÀíËã·¨Ë³Ðò¼ìË÷µÄÖµµÄ×Ö·ûÍ³¼ÆÔ¤²â
-3. HTTP»î¶¯
-²ÎÊý£º--keep-alive
-Ö¸Ê¾sqlmap HTTP(S)Ê¹ÓÃ³Ö¾ÃÁ¬½Ó
-4. HTTP¿ÕÁ¬½Ó
-²ÎÊý£º--null-connection
-¿ÉÒÔÓÃÔÚÃ¤Ä¿×¢Èë¼¼ÊõÀ´Çø·ÖTrue´ÓFalseÏìÓ¦
-5. ²¢·¢HTTP(S)ÇëÇó
-²ÎÊý£º-threads
-¿ÉÒÔÖ¸¶¨²¢·¢HTTP(S)ÇëÇóµÄ×î´óÊýÁ¿
+2. è¾“å‡ºé¢„æµ‹
+å‚æ•°ï¼š--predict-output
+è¿™é‡Œæ˜¯ç”¨äºŽæŽ¨ç†ç®—æ³•é¡ºåºæ£€ç´¢çš„å€¼çš„å­—ç¬¦ç»Ÿè®¡é¢„æµ‹
+3. HTTPæ´»åŠ¨
+å‚æ•°ï¼š--keep-alive
+æŒ‡ç¤ºsqlmap HTTP(S)ä½¿ç”¨æŒä¹…è¿žæŽ¥
+4. HTTPç©ºè¿žæŽ¥
+å‚æ•°ï¼š--null-connection
+å¯ä»¥ç”¨åœ¨ç›²ç›®æ³¨å…¥æŠ€æœ¯æ¥åŒºåˆ†Trueä»ŽFalseå“åº”
+5. å¹¶å‘HTTP(S)è¯·æ±‚
+å‚æ•°ï¼š-threads
+å¯ä»¥æŒ‡å®šå¹¶å‘HTTP(S)è¯·æ±‚çš„æœ€å¤§æ•°é‡
 
-##Ì½²â
-1. ²âÊÔ²ÎÊý
-²ÎÊý£º-p, -skip
-µ±Ê¹ÓÃ--levelµÄÖµºÜ´óµ«ÊÇÓÐ¸ö±ð²ÎÊý ²»Ïë²âÊÔµÄÊ±ºò¿ÉÒÔÊ¹ÓÃ--skip²ÎÊý£¬
+##æŽ¢æµ‹
+1. æµ‹è¯•å‚æ•°
+å‚æ•°ï¼š-p, -skip
+å½“ä½¿ç”¨--levelçš„å€¼å¾ˆå¤§ä½†æ˜¯æœ‰ä¸ªåˆ«å‚æ•° ä¸æƒ³æµ‹è¯•çš„æ—¶å€™å¯ä»¥ä½¿ç”¨--skipå‚æ•°ï¼Œ
 ```
 --skip="user-agent.referer"
 ```
-2. URL×¢Èëµã
-²ÎÊý£º-u
+2. URLæ³¨å…¥ç‚¹
+å‚æ•°ï¼š-u
 ```
 python sqlmap.py -u "http://targeturl/param/value*/
 ```
-3. Ö¸¶¨Êý¾Ý¿â
-²ÎÊý£º-dbms
-Ä¬ÈÏÇé¿ösqlmap»á×Ô¶¯Ì½²âwebÓ¦ÓÃºó¶ËµÄÊý¾Ý¿â
-4. ·çÏÕµÈ¼¶
-²ÎÊý£º--risk
-¹²ÓÐÈý¸ö·çÏÕµÈ¼¶£¬Ä¬ÈÏÊÇ1»á²âÊÔ´ó²¿·ÖµÄ²âÊÔÓï¾ä£¬2»áÔö¼Ó»ùÓÚÊÂ¼þµÄ²âÊÔÓï¾ä£¬3»áÔö¼ÓORÓï¾äµÄSQL×¢Èë²âÊÔ
-5. Ò³Ãæ±È½Ï
-²ÎÊý£º--string, --not-string, --regexp, --code
-Ä¬ÈÏÇé¿öÏÂsqlmapÍ¨¹ýÅÐ¶Ï·µ»ØÒ³ÃæµÄ²»Í¬À´ÅÐ¶ÏÕæ¼Ù£¬µ«ÓÐÊ±ºòÕâ»á²úÉúÎó²î£¬ÒòÎªÓÐµÄÒ³ÃæÔÚÃ¿´ÎË¢ÐÂµÄÊ±ºò¶¼»á·µ»Ø²»Í¬µÄ´úÂë£¬±ÈÈçÒ³Ãæµ±ÖÐ°üº¬Ò»¸ö¶¯Ì¬µÄ¹ã¸æ»òÕßÆäËûÄÚÈÝ£¬Õâ»áµ¼ÖÂsqlmapµÄÎóÅÐ¡£´ËÊ±ÓÃ»§¿ÉÒÔÌá¹©Ò»¸ö×Ö·û´®»òÕßÒ»¶ÎÕýÔòÆ¥Åä£¬ÔÚÔ­Ê¼Ò³ÃæÓëÕæÌõ¼þÏÂµÄÒ³Ãæ¶¼´æÔÚµÄ×Ö·û´®£¬¶ø´íÎóÒ³ÃæÖÐ²»´æÔÚ£¨Ê¹ÓÃ--string²ÎÊýÌí¼Ó×Ö·û´®£¬--regexpÌí¼ÓÕýÔò£©£¬Í¬Ê±ÓÃ»§¿ÉÒÔÌá¹©Ò»¶Î×Ö·û´®ÔÚÔ­Ê¼Ò³ÃæÓëÕæÌõ¼þÏÂµÄÒ³Ãæ¶¼²»´æÔÚµÄ×Ö·û´®£¬¶ø´íÎóÒ³ÃæÖÐ´æÔÚµÄ×Ö·û´®£¨--not-stringÌí¼Ó£©¡£ÓÃ»§Ò²¿ÉÒÔÌá¹©ÕæÓë¼ÙÌõ¼þ·µ»ØµÄHTTP×´Ì¬Âë²»Ò»ÑùÀ´×¢Èë£¬ÀýÈç£¬ÏìÓ¦200µÄÊ±ºòÎªÕæ£¬ÏìÓ¦401µÄÊ±ºòÎª¼Ù£¬¿ÉÒÔÌí¼Ó²ÎÊý--code=200¡£
-²ÎÊý£º--text-only, --titles
-ÓÐÐ©Ê±ºòÓÃ»§ÖªµÀÕæÌõ¼þÏÂµÄ·µ»ØÒ³ÃæÓë¼ÙÌõ¼þÏÂ·µ»ØÒ³ÃæÊÇ²»Í¬Î»ÖÃÔÚÄÄÀï¿ÉÒÔÊ¹ÓÃ--text-only£¨HTTPÏìÓ¦ÌåÖÐ²»Í¬£©--titles£¨HTMLµÄtitle±êÇ©ÖÐ²»Í¬£©¡£
+3. æŒ‡å®šæ•°æ®åº“
+å‚æ•°ï¼š-dbms
+é»˜è®¤æƒ…å†µsqlmapä¼šè‡ªåŠ¨æŽ¢æµ‹webåº”ç”¨åŽç«¯çš„æ•°æ®åº“
+4. é£Žé™©ç­‰çº§
+å‚æ•°ï¼š--risk
+å…±æœ‰ä¸‰ä¸ªé£Žé™©ç­‰çº§ï¼Œé»˜è®¤æ˜¯1ä¼šæµ‹è¯•å¤§éƒ¨åˆ†çš„æµ‹è¯•è¯­å¥ï¼Œ2ä¼šå¢žåŠ åŸºäºŽäº‹ä»¶çš„æµ‹è¯•è¯­å¥ï¼Œ3ä¼šå¢žåŠ ORè¯­å¥çš„SQLæ³¨å…¥æµ‹è¯•
+5. é¡µé¢æ¯”è¾ƒ
+å‚æ•°ï¼š--string, --not-string, --regexp, --code
+é»˜è®¤æƒ…å†µä¸‹sqlmapé€šè¿‡åˆ¤æ–­è¿”å›žé¡µé¢çš„ä¸åŒæ¥åˆ¤æ–­çœŸå‡ï¼Œä½†æœ‰æ—¶å€™è¿™ä¼šäº§ç”Ÿè¯¯å·®ï¼Œå› ä¸ºæœ‰çš„é¡µé¢åœ¨æ¯æ¬¡åˆ·æ–°çš„æ—¶å€™éƒ½ä¼šè¿”å›žä¸åŒçš„ä»£ç ï¼Œæ¯”å¦‚é¡µé¢å½“ä¸­åŒ…å«ä¸€ä¸ªåŠ¨æ€çš„å¹¿å‘Šæˆ–è€…å…¶ä»–å†…å®¹ï¼Œè¿™ä¼šå¯¼è‡´sqlmapçš„è¯¯åˆ¤ã€‚æ­¤æ—¶ç”¨æˆ·å¯ä»¥æä¾›ä¸€ä¸ªå­—ç¬¦ä¸²æˆ–è€…ä¸€æ®µæ­£åˆ™åŒ¹é…ï¼Œåœ¨åŽŸå§‹é¡µé¢ä¸ŽçœŸæ¡ä»¶ä¸‹çš„é¡µé¢éƒ½å­˜åœ¨çš„å­—ç¬¦ä¸²ï¼Œè€Œé”™è¯¯é¡µé¢ä¸­ä¸å­˜åœ¨ï¼ˆä½¿ç”¨--stringå‚æ•°æ·»åŠ å­—ç¬¦ä¸²ï¼Œ--regexpæ·»åŠ æ­£åˆ™ï¼‰ï¼ŒåŒæ—¶ç”¨æˆ·å¯ä»¥æä¾›ä¸€æ®µå­—ç¬¦ä¸²åœ¨åŽŸå§‹é¡µé¢ä¸ŽçœŸæ¡ä»¶ä¸‹çš„é¡µé¢éƒ½ä¸å­˜åœ¨çš„å­—ç¬¦ä¸²ï¼Œè€Œé”™è¯¯é¡µé¢ä¸­å­˜åœ¨çš„å­—ç¬¦ä¸²ï¼ˆ--not-stringæ·»åŠ ï¼‰ã€‚ç”¨æˆ·ä¹Ÿå¯ä»¥æä¾›çœŸä¸Žå‡æ¡ä»¶è¿”å›žçš„HTTPçŠ¶æ€ç ä¸ä¸€æ ·æ¥æ³¨å…¥ï¼Œä¾‹å¦‚ï¼Œå“åº”200çš„æ—¶å€™ä¸ºçœŸï¼Œå“åº”401çš„æ—¶å€™ä¸ºå‡ï¼Œå¯ä»¥æ·»åŠ å‚æ•°--code=200ã€‚
+å‚æ•°ï¼š--text-only, --titles
+æœ‰äº›æ—¶å€™ç”¨æˆ·çŸ¥é“çœŸæ¡ä»¶ä¸‹çš„è¿”å›žé¡µé¢ä¸Žå‡æ¡ä»¶ä¸‹è¿”å›žé¡µé¢æ˜¯ä¸åŒä½ç½®åœ¨å“ªé‡Œå¯ä»¥ä½¿ç”¨--text-onlyï¼ˆHTTPå“åº”ä½“ä¸­ä¸åŒï¼‰--titlesï¼ˆHTMLçš„titleæ ‡ç­¾ä¸­ä¸åŒï¼‰ã€‚
 
-##×¢Èë¼¼Êõ
-1. ²âÊÔÊÇ·ñÊÇ×¢Èëµã
-²ÎÊý£º--technique
-  - B:Boolean-based blind SQL injection£¨²¼¶ûÐÍ×¢Èë£©
-  - E:Error-based SQL injection£¨±¨´íÐÍ×¢Èë£©
-  - U:UNION query SQL injection£¨¿ÉÁªºÏ²éÑ¯×¢Èë£©
-  - S:Stacked queries SQL injection£¨¿É¶àÓï¾ä²éÑ¯×¢Èë£©
-  - T:Time-based blind SQL injection£¨»ùÓÚÊ±¼ä²éÑ¯×¢Èë£©
-2. Éè¶¨ÑÓ³Ù×¢ÈëµÄÊ±¼ä
-²ÎÊý£º --time-sec
-µ±Ê¹ÓÃ»ùÓÚÊ±¼äµÄÃ¤×¢Ê±£¬Ê¹ÓÃ--time-sec²ÎÊýÉè¶¨ÑÓ³ÙÊ±¼ä£¬Ä¬ÈÏÊÇ5Ãë
-3. Éè¶¨UNION²éÑ¯×Ö¶ÎÊý
-²ÎÊý£º--union-cols
-Ä¬ÈÏÇé¿öÏÂsqlmap²âÊÔUNION²éÑ¯×¢Èë»á²âÊÔ1-10×Ö¶ÎÊý£¬µ±--levelÎª5µÄÊ±ºò£¬Ëû»áÔö¼Ó²âÊÔµ½50¸ö×Ö¶ÎÊý£¬Éè¶¨--union-colsµÄÖµÓ¦¸ÃÊÇÒ»¶ÎÕûÊý£¬Èç£º12-16
-4. Éè¶¨UNION²éÑ¯Ê¹ÓÃµÄ×Ö·û
-²ÎÊý£º--union-char
-Ä¬ÈÏÇé¿öÏÂsqlmapÕë¶ÔUNION²éÑ¯µÄ×¢Èë»áÊ¹ÓÃNULL×Ö·û£¬µ«ÊÇÓÐÐ©Çé¿öÏÂ»áÔì³ÉÒ³Ãæ·µ»ØÊ§°Ü£¬¶øÒ»¸öËæ»úÕûÊýÊÇ³É¹¦µÄ£¬ÕâÊ±Äã¿ÉÓÃ--union-charÖ¸¶¨UNION²éÑ¯µÄ×Ö·û
-5. DNSÐ¹Â¶¹¥»÷
-²ÎÊý£º--dns-domain
-Èç¹ûÓÃ»§ÊÇ¿ØÖÆÒ»Ì¨»úÆ÷×¢²áÎªDNSÓò·þÎñÆ÷£¨ÀýÈçÓòattacker.com£©Ëû¿ÉÒÔ´ò¿ªÊ¹ÓÃÕâ¸öÑ¡Ïî
-6. ¶þ½×SQL×¢Èë
-²ÎÊý£º--second-order
-ÓÐÐ©Ê±ºò×¢ÈëµãÊäÈëµÄÊý¾Ý¿´·µ»Ø½á¹ûµÄÊ±ºò²¢²»ÊÇµ±Ç°µÄÒ³Ãæ£¬¶øÊÇÁíÍâµÄÒ»¸öÒ³Ãæ£¬ÕâÊ±ºò¾ÍÐèÒªÄãÖ¸¶¨µ½ÄÄ¸öÒ³Ãæ»ñÈ¡ÏìÓ¦ÅÐ¶ÏµÄÕæ¼Ù£¬--second-orderºóÃæ¸úÒ»¸öÅÐ¶ÏÒ³ÃæµÄURLµØÖ·
+##æ³¨å…¥æŠ€æœ¯
+1. æµ‹è¯•æ˜¯å¦æ˜¯æ³¨å…¥ç‚¹
+å‚æ•°ï¼š--technique
+  - B:Boolean-based blind SQL injectionï¼ˆå¸ƒå°”åž‹æ³¨å…¥ï¼‰
+  - E:Error-based SQL injectionï¼ˆæŠ¥é”™åž‹æ³¨å…¥ï¼‰
+  - U:UNION query SQL injectionï¼ˆå¯è”åˆæŸ¥è¯¢æ³¨å…¥ï¼‰
+  - S:Stacked queries SQL injectionï¼ˆå¯å¤šè¯­å¥æŸ¥è¯¢æ³¨å…¥ï¼‰
+  - T:Time-based blind SQL injectionï¼ˆåŸºäºŽæ—¶é—´æŸ¥è¯¢æ³¨å…¥ï¼‰
+2. è®¾å®šå»¶è¿Ÿæ³¨å…¥çš„æ—¶é—´
+å‚æ•°ï¼š --time-sec
+å½“ä½¿ç”¨åŸºäºŽæ—¶é—´çš„ç›²æ³¨æ—¶ï¼Œä½¿ç”¨--time-secå‚æ•°è®¾å®šå»¶è¿Ÿæ—¶é—´ï¼Œé»˜è®¤æ˜¯5ç§’
+3. è®¾å®šUNIONæŸ¥è¯¢å­—æ®µæ•°
+å‚æ•°ï¼š--union-cols
+é»˜è®¤æƒ…å†µä¸‹sqlmapæµ‹è¯•UNIONæŸ¥è¯¢æ³¨å…¥ä¼šæµ‹è¯•1-10å­—æ®µæ•°ï¼Œå½“--levelä¸º5çš„æ—¶å€™ï¼Œä»–ä¼šå¢žåŠ æµ‹è¯•åˆ°50ä¸ªå­—æ®µæ•°ï¼Œè®¾å®š--union-colsçš„å€¼åº”è¯¥æ˜¯ä¸€æ®µæ•´æ•°ï¼Œå¦‚ï¼š12-16
+4. è®¾å®šUNIONæŸ¥è¯¢ä½¿ç”¨çš„å­—ç¬¦
+å‚æ•°ï¼š--union-char
+é»˜è®¤æƒ…å†µä¸‹sqlmapé’ˆå¯¹UNIONæŸ¥è¯¢çš„æ³¨å…¥ä¼šä½¿ç”¨NULLå­—ç¬¦ï¼Œä½†æ˜¯æœ‰äº›æƒ…å†µä¸‹ä¼šé€ æˆé¡µé¢è¿”å›žå¤±è´¥ï¼Œè€Œä¸€ä¸ªéšæœºæ•´æ•°æ˜¯æˆåŠŸçš„ï¼Œè¿™æ—¶ä½ å¯ç”¨--union-charæŒ‡å®šUNIONæŸ¥è¯¢çš„å­—ç¬¦
+5. DNSæ³„éœ²æ”»å‡»
+å‚æ•°ï¼š--dns-domain
+å¦‚æžœç”¨æˆ·æ˜¯æŽ§åˆ¶ä¸€å°æœºå™¨æ³¨å†Œä¸ºDNSåŸŸæœåŠ¡å™¨ï¼ˆä¾‹å¦‚åŸŸattacker.comï¼‰ä»–å¯ä»¥æ‰“å¼€ä½¿ç”¨è¿™ä¸ªé€‰é¡¹
+6. äºŒé˜¶SQLæ³¨å…¥
+å‚æ•°ï¼š--second-order
+æœ‰äº›æ—¶å€™æ³¨å…¥ç‚¹è¾“å…¥çš„æ•°æ®çœ‹è¿”å›žç»“æžœçš„æ—¶å€™å¹¶ä¸æ˜¯å½“å‰çš„é¡µé¢ï¼Œè€Œæ˜¯å¦å¤–çš„ä¸€ä¸ªé¡µé¢ï¼Œè¿™æ—¶å€™å°±éœ€è¦ä½ æŒ‡å®šåˆ°å“ªä¸ªé¡µé¢èŽ·å–å“åº”åˆ¤æ–­çš„çœŸå‡ï¼Œ--second-orderåŽé¢è·Ÿä¸€ä¸ªåˆ¤æ–­é¡µé¢çš„URLåœ°å€
 
-##Ö¸ÎÆ
-Êý¾Ý¿â¹ÜÀíÏµÍ³Ö¸ÎÆ
-²ÎÊý£º-f»ò--fingerprint
-Í¨¹ýÖ¸ÎÆÅÐ±ðÊý¾Ý¿âÀàÐÍ
-##ÁÐÊý¾Ý
-1. ±êÖ¾
-²ÎÊý£º-b, --banner
-»ñÈ¡µ±Ç°Êý¾Ý¿â°æ±¾
-2. ÓÃ»§
-²ÎÊý£º--current-user
-3. µ±Ç°Êý¾Ý¿â
-²ÎÊý£º--current-db
-4. µ±Ç°ÓÃ»§ÊÇ·ñÎª¹ÜÀíÔ±
-²ÎÊý£º--is--dba
-5. ÁÐÊý¾Ý¿â¹ÜÀíÓÃ»§
-²ÎÊý£º--users
-µ±Ç°ÓÃ»§ÓÐÈ¨ÏÞ¶ÁÈ¡°üº¬ËùÓÐÓÃ»§µÄ±íµÄÈ¨ÏÞÊ±£¬¾Í¿ÉÒÔÁÐ³öËùÓÐ¹ÜÀíÓÃ»§
-6. ÁÐ³ö²¢ÆÆ½âÊý¾Ý¿âÓÃ»§µÄhash
-²ÎÊý£º--passwords
-µ±Ç°ÓÃ»§ÓÐÈ¨ÏÞ¶ÁÈ¡°üº¬ÓÃ»§ÃÜÂëµÄ±íµÄÈ¨ÏÞÊ±£¬¾Í¿ÉÒÔÁÐ³öhash£¬²¢³¢ÊÔÆÆ½â
+##æŒ‡çº¹
+æ•°æ®åº“ç®¡ç†ç³»ç»ŸæŒ‡çº¹
+å‚æ•°ï¼š-fæˆ–--fingerprint
+é€šè¿‡æŒ‡çº¹åˆ¤åˆ«æ•°æ®åº“ç±»åž‹
+##åˆ—æ•°æ®
+1. æ ‡å¿—
+å‚æ•°ï¼š-b, --banner
+èŽ·å–å½“å‰æ•°æ®åº“ç‰ˆæœ¬
+2. ç”¨æˆ·
+å‚æ•°ï¼š--current-user
+3. å½“å‰æ•°æ®åº“
+å‚æ•°ï¼š--current-db
+4. å½“å‰ç”¨æˆ·æ˜¯å¦ä¸ºç®¡ç†å‘˜
+å‚æ•°ï¼š--is--dba
+5. åˆ—æ•°æ®åº“ç®¡ç†ç”¨æˆ·
+å‚æ•°ï¼š--users
+å½“å‰ç”¨æˆ·æœ‰æƒé™è¯»å–åŒ…å«æ‰€æœ‰ç”¨æˆ·çš„è¡¨çš„æƒé™æ—¶ï¼Œå°±å¯ä»¥åˆ—å‡ºæ‰€æœ‰ç®¡ç†ç”¨æˆ·
+6. åˆ—å‡ºå¹¶ç ´è§£æ•°æ®åº“ç”¨æˆ·çš„hash
+å‚æ•°ï¼š--passwords
+å½“å‰ç”¨æˆ·æœ‰æƒé™è¯»å–åŒ…å«ç”¨æˆ·å¯†ç çš„è¡¨çš„æƒé™æ—¶ï¼Œå°±å¯ä»¥åˆ—å‡ºhashï¼Œå¹¶å°è¯•ç ´è§£
 ```
 python sqlmap.py -u "http://192.168.1.1/sqlmap/pgsql/get_int.php?id=1" --passwords -v 1
 ```
-*Ò²¿ÉÒÔÌá¹©-U²ÎÊýÀ´Ö¸¶¨±¬ÆÆÄ³¸öÓÃ»§µÄhash*
-7. ÁÐ³öÊý¾Ý¿â¹ÜÀíÔ±È¨ÏÞ
-²ÎÊý£º--privileges
-µ±Ç°ÓÃ»§ÓÐÈ¨ÏÞ¶ÁÈ¡°üº¬ËùÓÐÓÃ»§µÄ±íµÄÈ¨ÏÞÊ±£¬ºÜ¿ÉÄÜÁÐ¾Ù³öÃ¿¸öÓÃ»§µÄÈ¨ÏÞ£¬sqlmap½«»á¸æËßÄãÄÄ¸öÊÇÊý¾Ý¿âµÄ³¬¼¶¹ÜÀíÔ±£¬Ò²¿ÉÒÔÓÃ-U²ÎÊýÖ¸¶¨Ä³¸öÓÃ»§
-8. ÁÐ³öÊý¾Ý¿â¹ÜÀíÔ±½ÇÉ«
-²ÎÊý£º--roles
-µ±Ç°ÓÃ»§ÓÐÈ¨ÏÞ¶ÁÈ¡°üº¬ËùÓÐÓÃ»§µÄ±íµÄÈ¨ÏÞ£¬ºÜ¿ÉÄÜÁÐ¾Ù³öÃ¿¸öÓÃ»§µÄ½ÇÉ«£¬Ò²¿ÉÒÔÓÃ-U²ÎÊýÖ¸¶¨ÄãÏë¿´Ä³¸öÓÃ»§µÄ½ÇÉ«
-*½öÊÊÓÃÓÚµ±Ç°Êý¾Ý¿âÊÇOracleµÄÊ±ºò*
-9. ÁÐ³öÊý¾Ý¿âÏµÍ³µÄÊý¾Ý¿â
-²ÎÊý£º--dbs
-µ±Ç°ÓÃ»§ÓÐÈ¨ÏÞ¶ÁÈ¡°üº¬ËùÓÐÊý¾Ý¿âÁÐ±íÐÅÏ¢µÄ±íÖÐµÄÊ±ºò£¬¼´¿ÉÁÐ³öËùÓÐµÄÊý¾Ý¿â
-10. ÁÐ¾ÙÊý¾Ý¿â±í
-²ÎÊý£º--tables, --exclude-sysdbs, -D
-Èç¹û²»Ìá¹©-D²ÎÊýÀ´ÁÐÖ¸¶¨µÄÒ»¸öÊý¾ÝµÄÊ±ºò£¬sqlmap»áÁÐ³öËùÓÐµÄÊý¾Ý¿âµÄËùÓÐ±í
---exclude-sysdbs²ÎÊýÊÇÖ¸°üº¬ÁËËùÓÐµÄÏµÍ³Êý¾Ý¿â
-*ÐèÒª×¢ÒâµÄÊÇÔÚOracleÖÐÐèÒªÌá¹©µÄÊÇTABLESPACE_NAME¶ø²»ÊÇÊý¾Ý¿âÃû³Æ*
-11. ÁÐ¾ÙÊý¾Ý¿âÖÐµÄ×Ö¶Î
-²ÎÊý£º--columns, -C, -T, -D
-Èç¹ûÃ»ÓÐÊ¹ÓÃ-D²ÎÊýÖ¸¶¨Êý¾Ý¿âÊ±£¬Ä¬ÈÏ»áÊ¹ÓÃµ±Ç°Êý¾Ý¿â
-12. ÁÐ¾ÙÊý¾Ý¿âÏµÍ³µÄ¼Ü¹¹
-²ÎÊý£º--schema, --exclude-sysdbs
-¿ÉÒÔÓÃ´Ë²ÎÊý»ñÈ¡Êý¾Ý¿âµÄ¼Ü¹¹£¬°üº¬ËùÓÐµÄÊý¾Ý¿â£¬±íºÍ×Ö¶Î£¬ÒÔ¼°¸÷×ÔµÄÀàÐÍ
-*¼ÓÉÏ--exclude-sysdbs²ÎÊý£¬½«²»»á»ñÈ¡Êý¾Ý¿â×Ô´øµÄÏµÍ³¿âÄÚÈÝ*
-13. »ñÈ¡±íÖÐÊý¾Ý¸öÊý
-²ÎÊý£º--count
-14. »ñÈ¡Õû¸ö±íµÄÊý¾Ý
-²ÎÊý£º--dump, -C, -T, -D, --start, --stop, --first, --last
-Èç¹ûµ±Ç°¹ÜÀíÔ±ÓÐÈ¨ÏÞ¶ÁÈ¡Êý¾Ý¿âÆäÖÐÒ»¸ö±íµÄ»°£¬¾ÍÄÜ»ñÈ¡Õû¸ö±íµÄËùÓÐÄÚÈÝ
-Ê¹ÓÃ-D, -T²ÎÊýÖ¸¶¨Êý¾Ý¿âºÍ±í£¬²»Ê¹ÓÃ-D²ÎÊýÊ±£¬Ä¬ÈÏÊ¹ÓÃµ±Ç°¿â
-¿ÉÒÔ»ñÈ¡Ö¸¶¨¿âÖÐµÄËùÓÐ±íµÄÄÚÈÝ£¬Ö»ÓÃ-dumpºÍ-D²ÎÊý£¨²»Ê¹ÓÃ-TÓë-C²ÎÊý£©
-15. »ñÈ¡ËùÓÐÊý¾Ý¿â±íµÄÄÚÈÝ
-²ÎÊý£º--dump-all, --exclude-sysdbs
-Ê¹ÓÃ--dump-all²ÎÊý»ñÈ¡ËùÓÐÊý¾Ý¿â±íµÄÄÚÈÝ£¬¿ÉÍ¬Ê±¼ÓÉÏ--exclude-sysdbsÖ»»ñÈ¡ÓÃ»§Êý¾Ý¿âµÄ±í£¬ÐèÒª×¢ÒâÔÚMicrosoft SQL ServerÖÐmaserÊý¾Ý¿âÃ»ÓÐ¿¼ÂÇ³ÉÎªÒ»¸öÏµÍ³Êý¾Ý¿â£¬ÒòÎªÓÐµÄ¹ÜÀíÔ±»á°ÑËûµ±³ÉÓÃ»§Êý¾Ý¿âÒ»ÑùÊ¹ÓÃ
-16. ËÑË÷×Ö¶Î£¬±í£¬Êý¾Ý¿â
-²ÎÊý£º--search, -C, -T, -D
---search¿ÉÒÔÓÃÀ´Ñ°ÕÒÌØ¶¨µÄÊý¾Ý¿âÃû£¬ËùÓÐÊý¾Ý¿âÖÐµÄÌØ¶¨±íÃû£¬ËùÓÐÊý¾Ý¿âÖÐµÄÌØ¶¨×Ö¶Î
--Cºó¸ú×ÅÓÃ¶ººÅ·Ö¸ôµÄÁÐÃû£¬½«»áÔÚËùÓÐÊý¾Ý¿â±íÖÐËÑË÷Ö¸¶¨µÄÁÐÃû
--Tºó¸ú×ÅÓÃ¶ººÅ·Ö¸ôµÄ±íÃû£¬½«»áÔÚËùÓÐÊý¾Ý¿âÖÐËÑË÷Ö¸¶¨µÄ±íÃû
--Dºó¸ú×ÅÓÃ¶ººÅ·Ö¸ôµÄ¿âÃû£¬½«»áÔÚËùÓÐÊý¾Ý¿âÖÐËÑË÷Ö¸¶¨µÄ¿âÃû
-17. ÔËÐÐ×Ô¶¨ÒåµÄSQLÓï¾ä
-²ÎÊý£º--sql-query, --sql-shell
-Èç¹ûÊÇSELECT²éÑ¯Óï¾ä£¬sqlmap½«»áÊä³ö½á¹û£¬Èç¹ûÍ¨¹ýSQL×¢ÈëÖ´ÐÐÆäËûÓï¾ä£¬ÐèÒª²âÊÔÊÇ·ñÖ§³Ö¶àÓï¾äÖ´ÐÐ
+*ä¹Ÿå¯ä»¥æä¾›-Uå‚æ•°æ¥æŒ‡å®šçˆ†ç ´æŸä¸ªç”¨æˆ·çš„hash*
+7. åˆ—å‡ºæ•°æ®åº“ç®¡ç†å‘˜æƒé™
+å‚æ•°ï¼š--privileges
+å½“å‰ç”¨æˆ·æœ‰æƒé™è¯»å–åŒ…å«æ‰€æœ‰ç”¨æˆ·çš„è¡¨çš„æƒé™æ—¶ï¼Œå¾ˆå¯èƒ½åˆ—ä¸¾å‡ºæ¯ä¸ªç”¨æˆ·çš„æƒé™ï¼Œsqlmapå°†ä¼šå‘Šè¯‰ä½ å“ªä¸ªæ˜¯æ•°æ®åº“çš„è¶…çº§ç®¡ç†å‘˜ï¼Œä¹Ÿå¯ä»¥ç”¨-Uå‚æ•°æŒ‡å®šæŸä¸ªç”¨æˆ·
+8. åˆ—å‡ºæ•°æ®åº“ç®¡ç†å‘˜è§’è‰²
+å‚æ•°ï¼š--roles
+å½“å‰ç”¨æˆ·æœ‰æƒé™è¯»å–åŒ…å«æ‰€æœ‰ç”¨æˆ·çš„è¡¨çš„æƒé™ï¼Œå¾ˆå¯èƒ½åˆ—ä¸¾å‡ºæ¯ä¸ªç”¨æˆ·çš„è§’è‰²ï¼Œä¹Ÿå¯ä»¥ç”¨-Uå‚æ•°æŒ‡å®šä½ æƒ³çœ‹æŸä¸ªç”¨æˆ·çš„è§’è‰²
+*ä»…é€‚ç”¨äºŽå½“å‰æ•°æ®åº“æ˜¯Oracleçš„æ—¶å€™*
+9. åˆ—å‡ºæ•°æ®åº“ç³»ç»Ÿçš„æ•°æ®åº“
+å‚æ•°ï¼š--dbs
+å½“å‰ç”¨æˆ·æœ‰æƒé™è¯»å–åŒ…å«æ‰€æœ‰æ•°æ®åº“åˆ—è¡¨ä¿¡æ¯çš„è¡¨ä¸­çš„æ—¶å€™ï¼Œå³å¯åˆ—å‡ºæ‰€æœ‰çš„æ•°æ®åº“
+10. åˆ—ä¸¾æ•°æ®åº“è¡¨
+å‚æ•°ï¼š--tables, --exclude-sysdbs, -D
+å¦‚æžœä¸æä¾›-Då‚æ•°æ¥åˆ—æŒ‡å®šçš„ä¸€ä¸ªæ•°æ®çš„æ—¶å€™ï¼Œsqlmapä¼šåˆ—å‡ºæ‰€æœ‰çš„æ•°æ®åº“çš„æ‰€æœ‰è¡¨
+--exclude-sysdbså‚æ•°æ˜¯æŒ‡åŒ…å«äº†æ‰€æœ‰çš„ç³»ç»Ÿæ•°æ®åº“
+*éœ€è¦æ³¨æ„çš„æ˜¯åœ¨Oracleä¸­éœ€è¦æä¾›çš„æ˜¯TABLESPACE_NAMEè€Œä¸æ˜¯æ•°æ®åº“åç§°*
+11. åˆ—ä¸¾æ•°æ®åº“ä¸­çš„å­—æ®µ
+å‚æ•°ï¼š--columns, -C, -T, -D
+å¦‚æžœæ²¡æœ‰ä½¿ç”¨-Då‚æ•°æŒ‡å®šæ•°æ®åº“æ—¶ï¼Œé»˜è®¤ä¼šä½¿ç”¨å½“å‰æ•°æ®åº“
+12. åˆ—ä¸¾æ•°æ®åº“ç³»ç»Ÿçš„æž¶æž„
+å‚æ•°ï¼š--schema, --exclude-sysdbs
+å¯ä»¥ç”¨æ­¤å‚æ•°èŽ·å–æ•°æ®åº“çš„æž¶æž„ï¼ŒåŒ…å«æ‰€æœ‰çš„æ•°æ®åº“ï¼Œè¡¨å’Œå­—æ®µï¼Œä»¥åŠå„è‡ªçš„ç±»åž‹
+*åŠ ä¸Š--exclude-sysdbså‚æ•°ï¼Œå°†ä¸ä¼šèŽ·å–æ•°æ®åº“è‡ªå¸¦çš„ç³»ç»Ÿåº“å†…å®¹*
+13. èŽ·å–è¡¨ä¸­æ•°æ®ä¸ªæ•°
+å‚æ•°ï¼š--count
+14. èŽ·å–æ•´ä¸ªè¡¨çš„æ•°æ®
+å‚æ•°ï¼š--dump, -C, -T, -D, --start, --stop, --first, --last
+å¦‚æžœå½“å‰ç®¡ç†å‘˜æœ‰æƒé™è¯»å–æ•°æ®åº“å…¶ä¸­ä¸€ä¸ªè¡¨çš„è¯ï¼Œå°±èƒ½èŽ·å–æ•´ä¸ªè¡¨çš„æ‰€æœ‰å†…å®¹
+ä½¿ç”¨-D, -Tå‚æ•°æŒ‡å®šæ•°æ®åº“å’Œè¡¨ï¼Œä¸ä½¿ç”¨-Då‚æ•°æ—¶ï¼Œé»˜è®¤ä½¿ç”¨å½“å‰åº“
+å¯ä»¥èŽ·å–æŒ‡å®šåº“ä¸­çš„æ‰€æœ‰è¡¨çš„å†…å®¹ï¼Œåªç”¨-dumpå’Œ-Då‚æ•°ï¼ˆä¸ä½¿ç”¨-Tä¸Ž-Cå‚æ•°ï¼‰
+15. èŽ·å–æ‰€æœ‰æ•°æ®åº“è¡¨çš„å†…å®¹
+å‚æ•°ï¼š--dump-all, --exclude-sysdbs
+ä½¿ç”¨--dump-allå‚æ•°èŽ·å–æ‰€æœ‰æ•°æ®åº“è¡¨çš„å†…å®¹ï¼Œå¯åŒæ—¶åŠ ä¸Š--exclude-sysdbsåªèŽ·å–ç”¨æˆ·æ•°æ®åº“çš„è¡¨ï¼Œéœ€è¦æ³¨æ„åœ¨Microsoft SQL Serverä¸­maseræ•°æ®åº“æ²¡æœ‰è€ƒè™‘æˆä¸ºä¸€ä¸ªç³»ç»Ÿæ•°æ®åº“ï¼Œå› ä¸ºæœ‰çš„ç®¡ç†å‘˜ä¼šæŠŠä»–å½“æˆç”¨æˆ·æ•°æ®åº“ä¸€æ ·ä½¿ç”¨
+16. æœç´¢å­—æ®µï¼Œè¡¨ï¼Œæ•°æ®åº“
+å‚æ•°ï¼š--search, -C, -T, -D
+--searchå¯ä»¥ç”¨æ¥å¯»æ‰¾ç‰¹å®šçš„æ•°æ®åº“åï¼Œæ‰€æœ‰æ•°æ®åº“ä¸­çš„ç‰¹å®šè¡¨åï¼Œæ‰€æœ‰æ•°æ®åº“ä¸­çš„ç‰¹å®šå­—æ®µ
+-CåŽè·Ÿç€ç”¨é€—å·åˆ†éš”çš„åˆ—åï¼Œå°†ä¼šåœ¨æ‰€æœ‰æ•°æ®åº“è¡¨ä¸­æœç´¢æŒ‡å®šçš„åˆ—å
+-TåŽè·Ÿç€ç”¨é€—å·åˆ†éš”çš„è¡¨åï¼Œå°†ä¼šåœ¨æ‰€æœ‰æ•°æ®åº“ä¸­æœç´¢æŒ‡å®šçš„è¡¨å
+-DåŽè·Ÿç€ç”¨é€—å·åˆ†éš”çš„åº“åï¼Œå°†ä¼šåœ¨æ‰€æœ‰æ•°æ®åº“ä¸­æœç´¢æŒ‡å®šçš„åº“å
+17. è¿è¡Œè‡ªå®šä¹‰çš„SQLè¯­å¥
+å‚æ•°ï¼š--sql-query, --sql-shell
+å¦‚æžœæ˜¯SELECTæŸ¥è¯¢è¯­å¥ï¼Œsqlmapå°†ä¼šè¾“å‡ºç»“æžœï¼Œå¦‚æžœé€šè¿‡SQLæ³¨å…¥æ‰§è¡Œå…¶ä»–è¯­å¥ï¼Œéœ€è¦æµ‹è¯•æ˜¯å¦æ”¯æŒå¤šè¯­å¥æ‰§è¡Œ
 
-##±¬ÆÆ
-1. ±©Á¦ÆÆ½â±íÃû
-²ÎÊý£º--common-tables
-µ±Ê¹ÓÃ--tablesÎÞ·¨»ñÈ¡µ½Êý¾Ý¿âµÄ±íÊ±£¬¿ÉÒÔÊ¹ÓÃ´Ë²ÎÊý
-2. ±©Á¦ÆÆ½âÁÐÃû
-²ÎÊý£º--common-columns
-Óë±©Á¦ÆÆ½â±íÃûÒ»Ñù£¬±©Á¦ÅÜµÄÁÐÃûÔÚtxt/common-columns.txtÖÐ
+##çˆ†ç ´
+1. æš´åŠ›ç ´è§£è¡¨å
+å‚æ•°ï¼š--common-tables
+å½“ä½¿ç”¨--tablesæ— æ³•èŽ·å–åˆ°æ•°æ®åº“çš„è¡¨æ—¶ï¼Œå¯ä»¥ä½¿ç”¨æ­¤å‚æ•°
+2. æš´åŠ›ç ´è§£åˆ—å
+å‚æ•°ï¼š--common-columns
+ä¸Žæš´åŠ›ç ´è§£è¡¨åä¸€æ ·ï¼Œæš´åŠ›è·‘çš„åˆ—ååœ¨txt/common-columns.txtä¸­
 
-##ÓÃ»§×Ô¶¨Òåº¯Êý×¢Èë
-ÓÃ»§×Ô¶¨Òåº¯Êý£¨UDF£©
-²ÎÊý£º--udf-inject, --shared-lib
-Äã¿ÉÒÔÍ¨¹ý·´±àÒëMySQL×¢ÈëÄã×Ô¶¨ÒåµÄº¯Êý£¨UDFs)»òPostgreSQLÔÚWindowsÖÐ¹²Ïí¿â£¬DLL£¬»òÕßLinux/UnixÖÐ¹²Ïí¶ÔÏó£¬sqlmap½«»áÎÊÄãÒ»Ð©ÎÊÌâ£¬ÉÏ´«µ½·þÎñÆ÷Êý¾Ý¿â×Ô¶¨Òåº¯Êý£¬È»ºó¸ù¾ÝÄãµÄÑ¡ÔñÖ´ÐÐËûÃÇ£¬µ±Äã×¢ÈëÍê³Éºó£¬sqlmap½«»áÒÆ³ýËüÃÇ¡£
-##ÏµÍ³ÎÄ¼þ²Ù×÷
-1. ´ÓÊý¾Ý¿â·þÎñÆ÷ÖÐ¶ÁÈ¡ÎÄ¼þ
-²ÎÊý£º--file-read
-µ±Êý¾Ý¿âÎªMySQL£¬PostgreSQL»òMicrosoft SQL Server£¬²¢ÇÒµ±Ç°ÓÃ»§ÓÐÈ¨ÏÞÊ¹ÓÃÌØ¶¨µÄº¯Êý£¬¶ÁÈ¡µÄÎÄ¼þ¿ÉÒÔÊÇÎÄ±¾Ò²¿ÉÒÔÊÇ¶þ½øÖÆÎÄ¼þ
-2. °ÑÎÄ¼þÉÏ´«µ½Êý¾Ý¿â·þÎñÆ÷ÖÐ
-²ÎÊý£º--file-write, --file-dest
-µ±Êý¾Ý¿âÎªMySQL£¬PostgreSQL»òMicrosoft SQL Server£¬²¢ÇÒµ±Ç°ÓÃ»§ÓÐÈ¨ÏÞÊ¹ÓÃÌØ¶¨µÄº¯Êý£¬ÉÏ´«µÄÎÄ¼þ¿ÉÒÔÊÇÎÄ±¾Ò²¿ÉÒÔÊÇ¶þ½øÖÆÎÄ¼þ
+##ç”¨æˆ·è‡ªå®šä¹‰å‡½æ•°æ³¨å…¥
+ç”¨æˆ·è‡ªå®šä¹‰å‡½æ•°ï¼ˆUDFï¼‰
+å‚æ•°ï¼š--udf-inject, --shared-lib
+ä½ å¯ä»¥é€šè¿‡åç¼–è¯‘MySQLæ³¨å…¥ä½ è‡ªå®šä¹‰çš„å‡½æ•°ï¼ˆUDFs)æˆ–PostgreSQLåœ¨Windowsä¸­å…±äº«åº“ï¼ŒDLLï¼Œæˆ–è€…Linux/Unixä¸­å…±äº«å¯¹è±¡ï¼Œsqlmapå°†ä¼šé—®ä½ ä¸€äº›é—®é¢˜ï¼Œä¸Šä¼ åˆ°æœåŠ¡å™¨æ•°æ®åº“è‡ªå®šä¹‰å‡½æ•°ï¼Œç„¶åŽæ ¹æ®ä½ çš„é€‰æ‹©æ‰§è¡Œä»–ä»¬ï¼Œå½“ä½ æ³¨å…¥å®ŒæˆåŽï¼Œsqlmapå°†ä¼šç§»é™¤å®ƒä»¬ã€‚
+##ç³»ç»Ÿæ–‡ä»¶æ“ä½œ
+1. ä»Žæ•°æ®åº“æœåŠ¡å™¨ä¸­è¯»å–æ–‡ä»¶
+å‚æ•°ï¼š--file-read
+å½“æ•°æ®åº“ä¸ºMySQLï¼ŒPostgreSQLæˆ–Microsoft SQL Serverï¼Œå¹¶ä¸”å½“å‰ç”¨æˆ·æœ‰æƒé™ä½¿ç”¨ç‰¹å®šçš„å‡½æ•°ï¼Œè¯»å–çš„æ–‡ä»¶å¯ä»¥æ˜¯æ–‡æœ¬ä¹Ÿå¯ä»¥æ˜¯äºŒè¿›åˆ¶æ–‡ä»¶
+2. æŠŠæ–‡ä»¶ä¸Šä¼ åˆ°æ•°æ®åº“æœåŠ¡å™¨ä¸­
+å‚æ•°ï¼š--file-write, --file-dest
+å½“æ•°æ®åº“ä¸ºMySQLï¼ŒPostgreSQLæˆ–Microsoft SQL Serverï¼Œå¹¶ä¸”å½“å‰ç”¨æˆ·æœ‰æƒé™ä½¿ç”¨ç‰¹å®šçš„å‡½æ•°ï¼Œä¸Šä¼ çš„æ–‡ä»¶å¯ä»¥æ˜¯æ–‡æœ¬ä¹Ÿå¯ä»¥æ˜¯äºŒè¿›åˆ¶æ–‡ä»¶
 
-##²Ù×÷ÏµÍ³
-1. ÔËÐÐÈÎÒâ²Ù×÷ÏµÍ³ÃüÁî
-²ÎÊý£º--os-cmd
-µ±Êý¾Ý¿âÎªMySQL£¬PostgreSQL»òMicrosoft SQL Server£¬²¢ÇÒµ±Ç°ÓÃ»§ÓÐÈ¨ÏÞÊ¹ÓÃÌØ¶¨µÄº¯Êý
-ÔÚMySQL£¬PostgreSQL£¬sqlmapÉÏ´«Ò»¸ö¶þ½øÖÆ¿â£¬°üº¬ÓÃ»§×Ô¶¨ÒåµÄº¯Êý£¬sys_exec()ºÍsys_eval()
-2. Ð´ÈëÕæÊµµÄshell
-²ÎÊý£º--os-shell
-ÍøÕ¾¾ø¶ÔÂ·¾¶
+##æ“ä½œç³»ç»Ÿ
+1. è¿è¡Œä»»æ„æ“ä½œç³»ç»Ÿå‘½ä»¤
+å‚æ•°ï¼š--os-cmd
+å½“æ•°æ®åº“ä¸ºMySQLï¼ŒPostgreSQLæˆ–Microsoft SQL Serverï¼Œå¹¶ä¸”å½“å‰ç”¨æˆ·æœ‰æƒé™ä½¿ç”¨ç‰¹å®šçš„å‡½æ•°
+åœ¨MySQLï¼ŒPostgreSQLï¼Œsqlmapä¸Šä¼ ä¸€ä¸ªäºŒè¿›åˆ¶åº“ï¼ŒåŒ…å«ç”¨æˆ·è‡ªå®šä¹‰çš„å‡½æ•°ï¼Œsys_exec()å’Œsys_eval()
+2. å†™å…¥çœŸå®žçš„shell
+å‚æ•°ï¼š--os-shell
+ç½‘ç«™ç»å¯¹è·¯å¾„
   - ASP
   - ASP.NET
   - JSP
   - PHP
-3. MeterperterÅäºÏÊ¹ÓÃ
-²ÎÊý£º--os-pwn, --os-smbrelay, --os-bof, --priv-esc, --msf-path, --tmp-path
-  - Í¨¹ýÓÃ»§×Ô¶¨ÒåµÄsys_bineval()º¯ÊýÔÚÄÚ´æÖÐÖ´ÐÐMetasploitµÄshellcode£¬Ö§³ÖMySQLºÍPostgreSQLÊý¾Ý¿â£¬²ÎÊý£º--os-pwn
-  - Í¨¹ýÓÃ»§×Ô¶¨ÒåµÄº¯ÊýÉÏ´«Ò»¸ö¶ÀÁ¢µÄpayloadÖ´ÐÐ £¬MySQLºÍPostgreSQLµÄsys_exec()º¯Êý£¬Microsoft SQL ServerµÄxp_cmdshell()º¯Êý£¬²ÎÊý£º--os-pwn
-  - Í¨¹ýSMB¹¥»÷£¨MS08-068£©À´Ö´ÐÐMetasploitµÄshellcode£¬µ±sqlmap»ñÈ¡µ½µÄÈ¨ÏÞ×ã¹»¸ßÊ±£¨Linux/UnixµÄuid=0£¬WindowsÊÇAdministrator£©£¬²ÎÊý£º--os--smbrelay
-  - Í¨¹ýÒç³öMicrosoft SQL Server 2000ºÍ2005µÄsp_replwritetovarbin´æ´¢¹ý³Ì£¨MS09-004£©£¬ÔÚÄÚ´æÖÐÖ´ÐÐMetersploitµÄpayload£¬²ÎÊý£º--os-bof
+3. Meterperteré…åˆä½¿ç”¨
+å‚æ•°ï¼š--os-pwn, --os-smbrelay, --os-bof, --priv-esc, --msf-path, --tmp-path
+  - é€šè¿‡ç”¨æˆ·è‡ªå®šä¹‰çš„sys_bineval()å‡½æ•°åœ¨å†…å­˜ä¸­æ‰§è¡ŒMetasploitçš„shellcodeï¼Œæ”¯æŒMySQLå’ŒPostgreSQLæ•°æ®åº“ï¼Œå‚æ•°ï¼š--os-pwn
+  - é€šè¿‡ç”¨æˆ·è‡ªå®šä¹‰çš„å‡½æ•°ä¸Šä¼ ä¸€ä¸ªç‹¬ç«‹çš„payloadæ‰§è¡Œ ï¼ŒMySQLå’ŒPostgreSQLçš„sys_exec()å‡½æ•°ï¼ŒMicrosoft SQL Serverçš„xp_cmdshell()å‡½æ•°ï¼Œå‚æ•°ï¼š--os-pwn
+  - é€šè¿‡SMBæ”»å‡»ï¼ˆMS08-068ï¼‰æ¥æ‰§è¡ŒMetasploitçš„shellcodeï¼Œå½“sqlmapèŽ·å–åˆ°çš„æƒé™è¶³å¤Ÿé«˜æ—¶ï¼ˆLinux/Unixçš„uid=0ï¼ŒWindowsæ˜¯Administratorï¼‰ï¼Œå‚æ•°ï¼š--os--smbrelay
+  - é€šè¿‡æº¢å‡ºMicrosoft SQL Server 2000å’Œ2005çš„sp_replwritetovarbinå­˜å‚¨è¿‡ç¨‹ï¼ˆMS09-004ï¼‰ï¼Œåœ¨å†…å­˜ä¸­æ‰§è¡ŒMetersploitçš„payloadï¼Œå‚æ•°ï¼š--os-bof
 
-##¶ÔWindows×¢²á±íµÄ²Ù×÷
-¶ÁÈ¡×¢²á±íÖµ
-²ÎÊý£º--reg-read
-Ð´Èë×¢²á±íÖµ
-²ÎÊý£º--reg-add
-É¾³ý×¢²á±íÖµ
-²ÎÊý£º --reg-del
-×¢²á±í¸¨ÖúÑ¡Ïî
-²ÎÊý£º --reg-key, --reg-value, --reg-data, --reg-type
-##ÆäËûµÄÒ»Ð©²ÎÊý
-1. Ê¹ÓÃ²ÎÊýËõÐ´
-²ÎÊý£º-z
-ÓÐÊ¹ÓÃ²ÎÊýÌ«³¤Ì«¸´ÔÓ£¬¿ÉÒÔÊ¹ÓÃËõÐ´Ä£Ê½
-2. ³É¹¦SQL×¢ÈëÊ±¾¯¸æ
-²ÎÊý£º-alert
-3. Éè¶¨»Ø´ð
-²ÎÊý£º--answers
-µ±sqlmapÌá³öÊäÈëÊ±£¬×Ô¶¯ÊäÈë×Ô¼ºÏëÒªµÄ»Ø´ð
-4. ·¢ÏÖSQL×¢ÈëÊ±·¢³ö·äÃùÉù
-²ÎÊý£º--beep
-5. Æô·¢Ê½¼ì²âWAF/IPS/IDS±£»¤
-²ÎÊý£º--check-waf
-WAF/IPS/IDS±£»¤¿ÉÄÜ»á¶ÔsqlmapÔì³ÉºÜ´óµÄÀ§ÈÅ£¬Èç¹û»³ÒÉÄ¿±êÓÐ·À»¤µÄ»°£¬¿ÉÒÔÊ¹ÓÃ´Ë²ÎÊýÀ´²âÊÔ£¬sqlmap½«»áÊ¹ÓÃÒ»¸ö²»´æÔÚµÄ²ÎÊýÀ´×¢Èë²âÊÔ
-6. ÇåÀísqlmap×¢Èë²úÉúµÄUDF(s)ºÍ±í
-²ÎÊý£º--cleanup
-7. ½ûÓÃ²ÊÉ«Êä³ö
-²ÎÊý£º--disable-coloring
-8. Ê¹ÓÃÖ¸¶¨µÄGoogle½á¹ûÒ³Ãæ
-²ÎÊý£º--gpage
-Ä¬ÈÏsqlmapÊ¹ÓÃÇ°100¸öURLµØÖ·×÷Îª×¢Èë²âÊÔ£¬½áºÏ´ËÑ¡Ïî£¬¿ÉÒÔÖ¸¶¨Ò³ÃæµÄURL²âÊÔ
-9. Ê¹ÓÃHTTP²ÎÊýÎÛÈ¾
-²ÎÊý£º-hpp
-HTTP²ÎÊýÎÛÈ¾¿ÉÄÜ»áÈÆ¹ýWAF/IPS/IDS±£»¤»úÖÆ£¬Õâ¸ö¶ÔASP/IISÓëASP.NET/IISÆ½Ì¨ºÜÓÐÐ§
-10. ²âÊÔWAF/IPS/IDS±£»¤
-²ÎÊý£º--identify-waf
-sqlmap¿ÉÒÔ³¢ÊÔÕÒ³öWAF/IPS/IDS±£»¤£¬·½±ãÓÃ»§×ö³öÈÆ¹ý·½Ê½
-11. Ä£·ÂÖÇÄÜÊÖ»ú
-²ÎÊý£º--mobile
-12. °²È«µÄÉ¾³ýoutputÄ¿Â¼µÄÎÄ¼þ
-²ÎÊý£º--purge-output
-É¾³ýÎÄ¼þ¶ø²»±»»Ö¸´
-13. Æô·¢Ê½ÅÐ¶Ï×¢Èë
-²ÎÊý£º--smart
-ÓÐÊ±¶ÔÄ¿±ê·Ç³£¶àµÄURL½øÐÐ²âÊÔ£¬Îª½ÚÊ¡Ê±¼ä£¬Ö»¶ÔÄÜ¹»¿ìËÙÅÐ¶ÏÎª×¢ÈëµÄ±¨´íµã½øÐÐ×¢Èë
-14. Ñ¡Ôñ²âÊÔµÄÓÐÐ§ºÉÔØ/±êÌâ
-²ÎÊý£º--text-filter
-Èç¹ûÄãÏë¹ýÂË²âÊÔµÄÓÐÐ§ºÉÔØ/±êÌâ¿ÉÒÔÊ¹ÓÃÕâ¸ö²ÎÊý
-15. ³õ¼¶ÓÃ»§Ïòµ¼²ÎÊý
-²ÎÊý£º--wizard
-ÃæÏò³õ¼¶ÓÃ»§µÄ²ÎÊý£¬¿ÉÒÔÒ»²½Ò»²½½ÌÄãÈçºÎÊäÈëÕë¶ÔÄ¿±ê×¢Èë
+##å¯¹Windowsæ³¨å†Œè¡¨çš„æ“ä½œ
+è¯»å–æ³¨å†Œè¡¨å€¼
+å‚æ•°ï¼š--reg-read
+å†™å…¥æ³¨å†Œè¡¨å€¼
+å‚æ•°ï¼š--reg-add
+åˆ é™¤æ³¨å†Œè¡¨å€¼
+å‚æ•°ï¼š --reg-del
+æ³¨å†Œè¡¨è¾…åŠ©é€‰é¡¹
+å‚æ•°ï¼š --reg-key, --reg-value, --reg-data, --reg-type
+##å…¶ä»–çš„ä¸€äº›å‚æ•°
+1. ä½¿ç”¨å‚æ•°ç¼©å†™
+å‚æ•°ï¼š-z
+æœ‰ä½¿ç”¨å‚æ•°å¤ªé•¿å¤ªå¤æ‚ï¼Œå¯ä»¥ä½¿ç”¨ç¼©å†™æ¨¡å¼
+2. æˆåŠŸSQLæ³¨å…¥æ—¶è­¦å‘Š
+å‚æ•°ï¼š-alert
+3. è®¾å®šå›žç­”
+å‚æ•°ï¼š--answers
+å½“sqlmapæå‡ºè¾“å…¥æ—¶ï¼Œè‡ªåŠ¨è¾“å…¥è‡ªå·±æƒ³è¦çš„å›žç­”
+4. å‘çŽ°SQLæ³¨å…¥æ—¶å‘å‡ºèœ‚é¸£å£°
+å‚æ•°ï¼š--beep
+5. å¯å‘å¼æ£€æµ‹WAF/IPS/IDSä¿æŠ¤
+å‚æ•°ï¼š--check-waf
+WAF/IPS/IDSä¿æŠ¤å¯èƒ½ä¼šå¯¹sqlmapé€ æˆå¾ˆå¤§çš„å›°æ‰°ï¼Œå¦‚æžœæ€€ç–‘ç›®æ ‡æœ‰é˜²æŠ¤çš„è¯ï¼Œå¯ä»¥ä½¿ç”¨æ­¤å‚æ•°æ¥æµ‹è¯•ï¼Œsqlmapå°†ä¼šä½¿ç”¨ä¸€ä¸ªä¸å­˜åœ¨çš„å‚æ•°æ¥æ³¨å…¥æµ‹è¯•
+6. æ¸…ç†sqlmapæ³¨å…¥äº§ç”Ÿçš„UDF(s)å’Œè¡¨
+å‚æ•°ï¼š--cleanup
+7. ç¦ç”¨å½©è‰²è¾“å‡º
+å‚æ•°ï¼š--disable-coloring
+8. ä½¿ç”¨æŒ‡å®šçš„Googleç»“æžœé¡µé¢
+å‚æ•°ï¼š--gpage
+é»˜è®¤sqlmapä½¿ç”¨å‰100ä¸ªURLåœ°å€ä½œä¸ºæ³¨å…¥æµ‹è¯•ï¼Œç»“åˆæ­¤é€‰é¡¹ï¼Œå¯ä»¥æŒ‡å®šé¡µé¢çš„URLæµ‹è¯•
+9. ä½¿ç”¨HTTPå‚æ•°æ±¡æŸ“
+å‚æ•°ï¼š-hpp
+HTTPå‚æ•°æ±¡æŸ“å¯èƒ½ä¼šç»•è¿‡WAF/IPS/IDSä¿æŠ¤æœºåˆ¶ï¼Œè¿™ä¸ªå¯¹ASP/IISä¸ŽASP.NET/IISå¹³å°å¾ˆæœ‰æ•ˆ
+10. æµ‹è¯•WAF/IPS/IDSä¿æŠ¤
+å‚æ•°ï¼š--identify-waf
+sqlmapå¯ä»¥å°è¯•æ‰¾å‡ºWAF/IPS/IDSä¿æŠ¤ï¼Œæ–¹ä¾¿ç”¨æˆ·åšå‡ºç»•è¿‡æ–¹å¼
+11. æ¨¡ä»¿æ™ºèƒ½æ‰‹æœº
+å‚æ•°ï¼š--mobile
+12. å®‰å…¨çš„åˆ é™¤outputç›®å½•çš„æ–‡ä»¶
+å‚æ•°ï¼š--purge-output
+åˆ é™¤æ–‡ä»¶è€Œä¸è¢«æ¢å¤
+13. å¯å‘å¼åˆ¤æ–­æ³¨å…¥
+å‚æ•°ï¼š--smart
+æœ‰æ—¶å¯¹ç›®æ ‡éžå¸¸å¤šçš„URLè¿›è¡Œæµ‹è¯•ï¼Œä¸ºèŠ‚çœæ—¶é—´ï¼Œåªå¯¹èƒ½å¤Ÿå¿«é€Ÿåˆ¤æ–­ä¸ºæ³¨å…¥çš„æŠ¥é”™ç‚¹è¿›è¡Œæ³¨å…¥
+14. é€‰æ‹©æµ‹è¯•çš„æœ‰æ•ˆè·è½½/æ ‡é¢˜
+å‚æ•°ï¼š--text-filter
+å¦‚æžœä½ æƒ³è¿‡æ»¤æµ‹è¯•çš„æœ‰æ•ˆè·è½½/æ ‡é¢˜å¯ä»¥ä½¿ç”¨è¿™ä¸ªå‚æ•°
+15. åˆçº§ç”¨æˆ·å‘å¯¼å‚æ•°
+å‚æ•°ï¼š--wizard
+é¢å‘åˆçº§ç”¨æˆ·çš„å‚æ•°ï¼Œå¯ä»¥ä¸€æ­¥ä¸€æ­¥æ•™ä½ å¦‚ä½•è¾“å…¥é’ˆå¯¹ç›®æ ‡æ³¨å…¥
