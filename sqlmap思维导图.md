@@ -225,9 +225,9 @@ python sqlmap.py -u "http://targeturl/param/value*/
 	有些时候注入点输入的数据看返回结果的时候并不是当前的页面，而是另外的一个页面，这时候就需要你指定到哪个页面获取响应判断的真假，--second-order后面跟一个判断页面的URL地址
 
 ## 指纹
-	数据库管理系统指纹  
-	参数：-f或--fingerprint  
-	通过指纹判别数据库类型
+数据库管理系统指纹     
+参数：-f或--fingerprint     
+通过指纹判别数据库类型   
 ## 列数据
 1. 标志  
 	参数：-b, --banner  
@@ -299,9 +299,9 @@ python sqlmap.py -u "http://192.168.1.1/sqlmap/pgsql/get_int.php?id=1" --passwor
 	与暴力破解表名一样，暴力跑的列名在txt/common-columns.txt中  
 
 ## 用户自定义函数注入
-	用户自定义函数（UDF）  
-	参数：--udf-inject, --shared-lib   
-	你可以通过反编译MySQL注入你自定义的函数（UDFs)或PostgreSQL在Windows中共享库，DLL，或者Linux/Unix中共享对象，sqlmap将会问你一些问题，上传到服务器数据库自定义函数，然后根据你的选择执行他们，当你注入完成后，sqlmap将会移除它们。
+用户自定义函数（UDF）  
+参数：--udf-inject, --shared-lib   
+你可以通过反编译MySQL注入你自定义的函数（UDFs)或PostgreSQL在Windows中共享库，DLL，或者Linux/Unix中共享对象，sqlmap将会问你一些问题，上传到服务器数据库自定义函数，然后根据你的选择执行他们，当你注入完成后，sqlmap将会移除它们。
 ## 系统文件操作
 1. 从数据库服务器中读取文件  
 	参数：--file-read  
