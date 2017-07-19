@@ -1,17 +1,17 @@
-#SQLMAP作用#
+# SQLMAP作用#
 1. 判断可注入的参数
 2. 判断可以用哪种SQL注入技术来注入
 3. 识别出哪种数据库
 4.  根据用户选择，读取哪些数据
 
-#五种注入模式#
+# 五种注入模式#
 1. 基于布尔的盲注，即可以根据返回页面判断条件真假的注入。
 2. 基于时间的盲注，即不能根据页面返回内容判断任何信息，用条件语句查看时间延迟语句是否执行（即页面返回时间是否增加）来判断。
 3. 基于报错注入，即页面会返回错误信息，或者把注入的语句的结果直接返回在页面中。
 4. 联合查询注入，可以使用union的情况下的注入
 5. 堆查询注入，可以同时执行多条语句的执行时的注入。
 
-#支持哪些数据库注入？#
+# 支持哪些数据库注入？#
 - MySQL
 - Oracle
 - PostgreSQL
@@ -23,8 +23,8 @@
 - Sybase
 - SAP MaxDB
 
-#必备参数
-##观察数据
+# 必备参数
+## 观察数据
 **-v参数，共有7个等级，默认为1**
 - -v 0  只显示python错误以及严重的信息
 - -v 1  同时显示基本信息和警告信息。（默认）
@@ -35,7 +35,7 @@
 - -v 6 同时显示HTTP相应页面。
 
 如果想看到SQLmap发送的测试payload最好的等级就是3
-##获取目标方式
+## 获取目标方式
 1. 直接连接到数据库
 参数：-d
 对单个数据库实例运行SQLmap
@@ -67,7 +67,7 @@ python sqlmap.py -g "inurl:\".php?id=1\""
 参数：-c
 加载sqlmap.conf文件里面的相关配置
 
-##请求方式
+## 请求方式
 1. HTTP数据 
 参数：--data
 把数据以POST方式提交,sqlmap会像检测GET参数一样检测POST的参数
@@ -157,7 +157,7 @@ python sqlmap.py -l burp.log --scope="(www)?\.target\.(com|net|org)"
 python sqlmap.py -u "http://www.target.com/vuln.php?id=1&hash=c4ca4238a0b923820dcc509a6f75849b" --eval="import hashlib;hash=hashlib.md5(id).hexdigest()"
 ```
 
-##优化
+## 优化
 1. 收集优化
 参数：-o
 这个参数是一个别名，隐式地设置以下选项和交换机
@@ -177,7 +177,7 @@ python sqlmap.py -u "http://www.target.com/vuln.php?id=1&hash=c4ca4238a0b923820d
 参数：-threads
 可以指定并发HTTP(S)请求的最大数量
 
-##探测
+## 探测
 1. 测试参数
 参数：-p, -skip
 当使用--level的值很大但是有个别参数 不想测试的时候可以使用--skip参数，
@@ -201,7 +201,7 @@ python sqlmap.py -u "http://targeturl/param/value*/
 参数：--text-only, --titles
 有些时候用户知道真条件下的返回页面与假条件下返回页面是不同位置在哪里可以使用--text-only（HTTP响应体中不同）--titles（HTML的title标签中不同）。
 
-##注入技术
+## 注入技术
 1. 测试是否是注入点
 参数：--technique
   - B:Boolean-based blind SQL injection（布尔型注入）
@@ -225,11 +225,11 @@ python sqlmap.py -u "http://targeturl/param/value*/
 参数：--second-order
 有些时候注入点输入的数据看返回结果的时候并不是当前的页面，而是另外的一个页面，这时候就需要你指定到哪个页面获取响应判断的真假，--second-order后面跟一个判断页面的URL地址
 
-##指纹
+## 指纹
 数据库管理系统指纹
 参数：-f或--fingerprint
 通过指纹判别数据库类型
-##列数据
+## 列数据
 1. 标志
 参数：-b, --banner
 获取当前数据库版本
@@ -291,7 +291,7 @@ python sqlmap.py -u "http://192.168.1.1/sqlmap/pgsql/get_int.php?id=1" --passwor
 参数：--sql-query, --sql-shell
 如果是SELECT查询语句，sqlmap将会输出结果，如果通过SQL注入执行其他语句，需要测试是否支持多语句执行
 
-##爆破
+## 爆破
 1. 暴力破解表名
 参数：--common-tables
 当使用--tables无法获取到数据库的表时，可以使用此参数
@@ -299,11 +299,11 @@ python sqlmap.py -u "http://192.168.1.1/sqlmap/pgsql/get_int.php?id=1" --passwor
 参数：--common-columns
 与暴力破解表名一样，暴力跑的列名在txt/common-columns.txt中
 
-##用户自定义函数注入
+## 用户自定义函数注入
 用户自定义函数（UDF）
 参数：--udf-inject, --shared-lib
 你可以通过反编译MySQL注入你自定义的函数（UDFs)或PostgreSQL在Windows中共享库，DLL，或者Linux/Unix中共享对象，sqlmap将会问你一些问题，上传到服务器数据库自定义函数，然后根据你的选择执行他们，当你注入完成后，sqlmap将会移除它们。
-##系统文件操作
+## 系统文件操作
 1. 从数据库服务器中读取文件
 参数：--file-read
 当数据库为MySQL，PostgreSQL或Microsoft SQL Server，并且当前用户有权限使用特定的函数，读取的文件可以是文本也可以是二进制文件
@@ -311,7 +311,7 @@ python sqlmap.py -u "http://192.168.1.1/sqlmap/pgsql/get_int.php?id=1" --passwor
 参数：--file-write, --file-dest
 当数据库为MySQL，PostgreSQL或Microsoft SQL Server，并且当前用户有权限使用特定的函数，上传的文件可以是文本也可以是二进制文件
 
-##操作系统
+## 操作系统
 1. 运行任意操作系统命令
 参数：--os-cmd
 当数据库为MySQL，PostgreSQL或Microsoft SQL Server，并且当前用户有权限使用特定的函数
@@ -330,7 +330,7 @@ python sqlmap.py -u "http://192.168.1.1/sqlmap/pgsql/get_int.php?id=1" --passwor
   - 通过SMB攻击（MS08-068）来执行Metasploit的shellcode，当sqlmap获取到的权限足够高时（Linux/Unix的uid=0，Windows是Administrator），参数：--os--smbrelay
   - 通过溢出Microsoft SQL Server 2000和2005的sp_replwritetovarbin存储过程（MS09-004），在内存中执行Metersploit的payload，参数：--os-bof
 
-##对Windows注册表的操作
+## 对Windows注册表的操作
 读取注册表值
 参数：--reg-read
 写入注册表值
@@ -339,7 +339,7 @@ python sqlmap.py -u "http://192.168.1.1/sqlmap/pgsql/get_int.php?id=1" --passwor
 参数： --reg-del
 注册表辅助选项
 参数： --reg-key, --reg-value, --reg-data, --reg-type
-##其他的一些参数
+## 其他的一些参数
 1. 使用参数缩写
 参数：-z
 有使用参数太长太复杂，可以使用缩写模式
