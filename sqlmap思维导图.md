@@ -44,8 +44,8 @@
 ```
 python sqlmap.py -d "mysql://admin:admin@127.0.0.1:3306/db"
 ```
-2. 目标URL
-	参数：-u或者--url
+2. 目标URL</br>
+参数：-u或者--url
 ```
 python sqlmap.py -u "http(s)://targeturl:[port]/[...]" 
 ```
