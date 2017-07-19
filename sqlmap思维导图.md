@@ -49,9 +49,9 @@ python sqlmap.py -d "mysql://admin:admin@127.0.0.1:3306/db"
 ```
 python sqlmap.py -u "http(s)://targeturl:[port]/[...]" 
 ```
-3. 从Burp或者WebScarab代理中获取日志
-	参数：-l
-	从日志直接导出来交给sqlmap检测
+3. 从Burp或者WebScarab代理中获取日志  
+参数：-l   
+从日志直接导出来交给sqlmap检测
 4. 从文本中获取多个目标扫描
 	参数：-m
 	url保存在文本中，sqlmap一个一个检测
