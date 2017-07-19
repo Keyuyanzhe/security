@@ -37,7 +37,7 @@
 如果想看到SQLmap发送的测试payload最好的等级就是3
 ## 获取目标方式
 1. 直接连接到数据库
-参数：-d
+ 参数：-d
 对单个数据库实例运行SQLmap
 ```
 python sqlmap.py -d "mysql://admin:admin@127.0.0.1:3306/db"
