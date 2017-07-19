@@ -245,11 +245,10 @@ python sqlmap.py -u "http://targeturl/param/value*/
 6. 列出并破解数据库用户的hash
 参数：--passwords
 当前用户有权限读取包含用户密码的表的权限时，就可以列出hash，并尝试破解
+*也可以提供-U参数来指定爆破某个用户的hash*
 ```
 python sqlmap.py -u "http://192.168.1.1/sqlmap/pgsql/get_int.php?id=1" --passwords -v 1
 ```
-*也可以提供-U参数来指定爆破某个用户的hash*
-
 7. 列出数据库管理员权限
 参数：--privileges
 当前用户有权限读取包含所有用户的表的权限时，很可能列举出每个用户的权限，sqlmap将会告诉你哪个是数据库的超级管理员，也可以用-U参数指定某个用户
